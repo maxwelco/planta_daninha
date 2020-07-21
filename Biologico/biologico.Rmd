@@ -1,0 +1,192 @@
+---
+title: "Controle Biógico de Plantas Daninhas"
+#subtitle: "Aula 2"
+author: "Maxwel Coura Oliveira"
+institute: "Universidade do Oeste Paulista"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, fc, robot-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.align = "center",
+  message = FALSE,
+  warning = FALSE,
+  cache = TRUE
+)
+```
+
+```{r}
+library(pagedown)
+```
+
+
+# Objetivos
+
+- Descrever o que é o controle biológico de ervas daninhas e vários métodos de sua aplicação
+
+- Discutir vantagens e desvantagens do controle biológico
+
+- Explicar os principais conceitos na identificação de um agente biótico útil
+
+
+.center[![](https://media.giphy.com/media/U3dIoNBOyfTkA/giphy.gif)]
+
+
+---
+
+# Definição
+
+A ação de parasitas, predadores ou patógenos na manutenção de outra população de organismos em uma densidade média mais baixa do que ocorreria em sua ausência
+
+.center[![](https://cdn1.byjus.com/wp-content/uploads/2018/02/bio-control-agents.png)]
+
+
+
+---
+
+# Controle biológico
+
+
+## O controle biológico difere de outros métodos de controle de plantas daninhas:
+
+
+- As ervas daninhas geralmente não são mortas
+--
+
+
+- É de ação lenta
+--
+
+
+- Pode ser permanente
+
+
+---
+
+# Controle biológico
+
+## O controle biológico é mais eficaz quando:
+
+
+- As medidas de controle disponíveis são inadequadas ou indisponíveis
+--
+
+
+- Os valores da terra são baixos
+--
+
+
+- Não existem plantas intimamente relacionadas na região de infestação
+
+
+---
+
+
+# Controle biológico 
+
+## Vantagens
+
+
+- Auto-perpetuação
+--
+
+
+- Sem resíduos
+--
+
+
+- Custo de desenvolvimento é menor do que para herbicidas
+--
+
+## Desvantagens
+
+- A planta deve ser definida como uma planta daninha verdadeira
+--
+
+
+- O organismo pode não ser completamente seletivo (perda de biodiversidade)
+--
+
+
+- A propagação do organismo pode não ser controlável
+--
+
+
+- Os efeitos são lentos e raramente completos
+
+
+---
+
+
+# Agente biológico
+
+Inimigo natural que reduz a população de plantas daninhas ou sua competitividade (aptidão relativa)
+
+
+
+---
+
+# Seleção de agentes bióticos
+
+- Novo ambiente deve ser semelhante ao ambiente doméstico
+--
+
+
+- O agente deve se alimentar exclusivamente das espécies-alvo
+--
+
+
+- Vários agentes, cada um com hábitos alimentares diferentes (modos de ação, por assim dizer), são mais eficazes
+
+
+---
+
+
+# Especificidade do hospedeiro de agentes bióticos
+
+
+- Os insetos tendem a ser mais específicos do hospedeiro do que patógenos ou vertebrados - ou seja, tendem a se alimentar de uma única espécie hospedeira
+
+
+
+- Alguns patógenos requerem cultura e reaplicação (micoherbicidas)
+
+
+---
+
+# Métodos de aplicação do controle biológico de plantas daninhas
+
+- Clássico
+
+
+- Aumentativa ou inundativa
+
+
+- Amplo espectro (animais)
+
+
+---
+
+# Controle biológico
+
+## O grau de eficácia depende:
+
+- Características das espécies vegetais
+
+
+- Eficácia da prática de controle utilizada (modo de ataque
+
+
+- Clima - temperatura, radiação líquida, umidade, velocidade do vento, etc.
