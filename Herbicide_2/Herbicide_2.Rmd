@@ -305,6 +305,17 @@ knitr::include_graphics("images/diuron_wdg.jpg")
 knitr::include_graphics("images/granularherbicide.jpg")
 ```
 
+---
+
+
+# Formulações
+
+
+```{r echo=FALSE, out.width=600}
+knitr::include_graphics("images/misturas.gif")
+```
+
+
 
 ---
 
@@ -312,7 +323,7 @@ knitr::include_graphics("images/granularherbicide.jpg")
 
 
 ```{r echo=FALSE, out.width=300}
-knitr::include_graphics("images/liquid.gif")
+knitr::include_graphics("images/liquid.png")
 ```
 
 ---
