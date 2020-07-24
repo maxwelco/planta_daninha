@@ -249,7 +249,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Abaixar a densidade de equilíbrio
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/equilibrium.png")
+``` 
 
 
 
@@ -261,6 +263,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 
 
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/popdens.png")
+``` 
 
 
 
@@ -272,7 +277,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/weeddens.png")
+``` 
 
 
 
@@ -281,7 +288,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Alterar a composição das plantas daninhas
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/shift.png")
+``` 
 
 
 
@@ -323,14 +332,36 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Consórcio
 
 
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/intercropping.png")
+``` 
 
 
+---
 
+# Espaçamento
 
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/row_1.png")
+``` 
 
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/Eb9gRFEUMAAT0Ec?format=jpg&name=large")
+``` 
 
+]
 
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/row_2.png")
+``` 
 
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/Eb9gRElWsAAnjah?format=jpg&name=large")
+``` 
+
+]
 
 
 ---
@@ -338,22 +369,19 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Espaçamento
 
 
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/corn_1.png")
+``` 
 
+]
 
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/corn_2.png")
+``` 
 
-
-
-
-
----
-
-# Espaçamento
-
-
-
-
-
-
+]
 
 
 ---
@@ -362,20 +390,29 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 
 
-
-
-
-
-
-
-
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/palmer_adaptation.png")
+``` 
 
 
 ---
 
 # Seleção de cultivares
 
+.pull-left[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/leaf_Density.png")
+``` 
+]
 
+.pull-right[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/velvetleaf.jpg")
+``` 
+
+.center[![](https://inputsandinsights.files.wordpress.com/2019/11/velvetleaf.jpg)]
+
+]
 
 
 
@@ -388,8 +425,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Culturas de cobertura
 
 
-
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/cover.jpg")
+```
 
 
 
@@ -400,8 +438,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 # Culturas de cobertura
 
-
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/EaQb53TXgAMtNe_?format=jpg&name=large")
+```
 
 
 
@@ -445,7 +484,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Arranquio
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/arranquio.png")
+```
 
 
 
@@ -457,7 +498,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Capina manual
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/hoeing.jpg")
+```
 
 
 
@@ -466,12 +509,23 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 # Roçada
 
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/hBtT2enkmRuY8/giphy.gif")
+```
 
 
+.pull-left[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://previews.123rf.com/images/farion25/farion251606/farion25160600117/59213874-mowing-weeds-in-garden-to-petrol-trimmer-close-up.jpg")
+```
+]
 
+.pull-right[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://arrowlawncare.com/wp-content/uploads/2015/06/grass-mow-high-weeds-350.png")
+```
 
-
-
+]
 
 
 ---
@@ -479,7 +533,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Manejo de água
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/water.png")
+```
 
 
 
@@ -489,9 +545,44 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Fogo ou tocha
 
 
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/dhKOztH8klyvu/giphy-downsized-large.gif")
+```
+
+--
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/harringtonsee.jpg")
+```
+]
 
 
 
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/narrow_burning.jpg")
+```
+]
+
+
+---
+
+# Fogo ou tocha
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://images.slideplayer.com/23/6615228/slides/slide_1.jpg")
+```
+
+
+---
+
+# Fogo ou tocha
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/flaming.jpg")
+```
 
 
 
@@ -501,7 +592,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Solarização
 
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/solarization.png")
+```
 
 
 
@@ -513,9 +606,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Colheita sementes - trituração
 
 
-
-
-
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("https://canoladigest.ca/wp-content/uploads/2018/08/32-manage-weeds-feature.jpg")
+```
 
 
 
@@ -539,11 +632,44 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # Manejo de Primário Solo
 
 
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/deep_1.png")
+```
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/deep_2.png")
+```
+]
+
+
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/deep_3.png")
+```
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/deep_4.png")
+```
+]
 
 
 
 
 
+
+---
+
+# Manejo Secundário do Solo
+
+
+
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/7FgI5xUhXfGZx1rX74/giphy.gif")
+```
 
 
 ---
@@ -554,7 +680,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/tandem.png")
+```
 
 
 ---
@@ -564,8 +692,18 @@ O controle é usado somente após a existência de um problema, não é prevenç
 ## Cultivator
 
 
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/cultivador.png")
+```
 
 
+---
+
+# 
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/cultivator_1.png")
+```
 
 
 
@@ -576,7 +714,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 ## Undercutter
 
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/undercutter.png")
+```
 
 
 
@@ -589,7 +729,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 ## Cultipacker
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/cultipacker.png")
+```
 
 
 
@@ -602,7 +744,9 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 ## Harrow
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/harrow_1.png")
+```
 
 
 
@@ -614,7 +758,17 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 ## Exada rotativa
 
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/rotary_1.png")
+```
+]
 
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/rotary_2.png")
+```
+]
 
 
 ---
@@ -622,13 +776,6 @@ O controle é usado somente após a existência de um problema, não é prevenç
 # 
 
 
-
-
-
-
----
-
-# 
 
 
 
@@ -648,49 +795,83 @@ O controle é usado somente após a existência de um problema, não é prevenç
 
 # Técnicas de Conservação do solo
 
+.pull-left[
 ## Vantagens:
 
 - Resíduos minimiza a erosão
---
 
 
 - Ruduz o uso de energia
---
 
 
 - Ruduz a compactação
---
 
 
 - Melhora a estrutura do solo
---
 
 
 - Aumenta a conservação do solo e água
+]
 
 
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/residue.jpg")
+```
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://www.eartheclipse.com/wp-content/uploads/2016/04/soil-in-hands.jpg")
+```
+
+]
 
 
 ---
 
+
 # Técnicas de Conservação do solo
+
+.pull-left[
 
 ## Desvantagens:
 
 - Menor temperatura do solo
---
 
 
-- Insidência de doenças/pragas pode aumentar
---
+- Incidência de doenças/pragas pode aumentar
 
 
 - Muda a irrigação
---
 
 
 - Maior dependência do controle químico de plantas daninhas
+]
 
 
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/spraying.jpg")
+```
+]
 
 
+---
+
+
+# Técnicas de Conservação do solo
+
+
+```{r echo=FALSE, out.width=600, fig.cap="U of Minnesota", fig.align='center'}
+knitr::include_graphics("https://www.agweek.com/incoming/4888957-x17h80-Agweek-January-2019-picture-4782193.jpg/alternates/BASE_LANDSCAPE/Agweek-January-2019-picture-4782193.jpg")
+```
+
+
+---
+
+
+# Técnicas de Conservação do solo
+
+
+```{r echo=FALSE, out.width=600, fig.align='center', fig.cap="U of Minnesota", fig.pos= "middle"}
+knitr::include_graphics("https://www.agweek.com/incoming/4888955-elibmo-15R8vOUYUvmG34ldsVOxGeSRQPJ9vu6PD.jpg/alternates/BASE_LANDSCAPE/15R8vOUYUvmG34ldsVOxGeSRQPJ9vu6PD.jpg")
+```
