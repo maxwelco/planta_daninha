@@ -875,3 +875,27 @@ knitr::include_graphics("https://www.agweek.com/incoming/4888957-x17h80-Agweek-J
 ```{r echo=FALSE, out.width=600, fig.align='center', fig.cap="U of Minnesota", fig.pos= "middle"}
 knitr::include_graphics("https://www.agweek.com/incoming/4888955-elibmo-15R8vOUYUvmG34ldsVOxGeSRQPJ9vu6PD.jpg/alternates/BASE_LANDSCAPE/15R8vOUYUvmG34ldsVOxGeSRQPJ9vu6PD.jpg")
 ```
+
+
+---
+
+# Dúvidas?
+
+
+
+```{r echo=FALSE, out.width=600, fig.align='center', fig.pos= "middle"}
+knitr::include_graphics("https://media.giphy.com/media/DAtJCG1t3im1G/giphy.gif")
+```
+
+.center[
+```
+MAXWEL COURA OLIVEIRA - maxweloliveira@unoeste.br
+```
+]
+
+
+
+```{r eval=FALSE}
+#remotes::install_github('rstudio/pagedown')
+pagedown::chrome_print("mipd.html")
+```
