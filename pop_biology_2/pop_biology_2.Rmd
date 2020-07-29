@@ -1,0 +1,84 @@
+---
+title: "Biologia Populacional"
+subtitle: "Parte II"
+author: "Maxwel Coura Oliveira"
+institute: "Universidade do Oeste Paulista"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, fc, robot-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.align = "center",
+  message = FALSE,
+  warning = FALSE,
+  cache = TRUE
+)
+```
+
+```{r}
+library(pagedown)
+```
+
+# Objetivos
+
+- Estimar, qualitativa e quantitativamente, o ciclo de vida de plantas invasoras
+
+- Explicar os processos que controlam o destino das sementes no banco de sementes
+
+- Quantificar o recrutamento (emergência, maturação e imigração) 
+
+- Discutir os fatores que afetam a sobrevivência e a produção de sementes
+
+- Descrever maneiras pelas quais as plantas se dispersam
+
+---
+
+# Causas de dormência
+
+
+.pull-left[
+- Embrião imaturo
+
+- Necessário pós-amadurecimento
+
+- Estimulação de algum processo
+
+- Inibidor de germinação está presente
+
+- Sementeira dura
+]
+
+.pull-right[
+
+
+]
+
+---
+
+
+# Papel da luz na dormência
+
+- Sementes de ~ metade de todas as espécies de plantas daninhas têm necessidade de luz
+
+- Ausência de luz pode induzir dormência
+
+- Os requisitos de luz são mediados pelo fitocromo
+
+- Bidens pilosa é mendigo peludo
+
+
+
+
+
+

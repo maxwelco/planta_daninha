@@ -1,6 +1,6 @@
 ---
 title: "Biologia populacional"
-#subtitle: "Introdução"
+subtitle: "Parte I"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
@@ -13,6 +13,22 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.align = "center",
+  message = FALSE,
+  warning = FALSE,
+  cache = TRUE
+)
+```
+
+```{r}
+library(pagedown)
+```
 
 # Objetivos
 
@@ -60,11 +76,15 @@ knitr::include_graphics("images/seedbank.png")
 
 ## Destino das sementes na superfície do solo:
 
-- Morte (decadência ou predação)
+- Morte (declínio ou predação)
 
 - Germinação
 
 - Entrada na camada de arável
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/d83U1vYHFiczd83cjZ/giphy.gif")
+``` 
 
 
 ---
@@ -120,7 +140,7 @@ knitr::include_graphics("images/nitrogen.png")
 --
 
 
-- Morte (decadência ou predação)
+- Morte (declínio ou predação)
 --
 
 
@@ -133,14 +153,34 @@ knitr::include_graphics("images/nitrogen.png")
     - rachaduras no solo, enterro por minhocas, insetos, roedores
     - qualquer forma de preparo do solo
 
+---
+
+# Qual semente de planta é essa?
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://bugwoodcloud.org/images/768x512/1459393.jpg")
+``` 
 
 
 ---
 
-# 
+# Aveia-doida (*Avena fatua*)
 
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/Cn1Jo_pUkAEf56T?format=jpg&name=medium")
+``` 
+]
 
+.pull-right[
 
+- Observe a aparência distorcida da arista, logo abaixo de onde ele se dobra? 
+
+- Quando molhado, a arista se torce, fazendo com que a parte dobrada gire. Ele age como um trado para garantir bom contato da semente com o solo
+
+- A semente de aveia selvagem basicamente se cava no solo para garantir um estabelecimento bem-sucedido.
+
+]
 
 
 
@@ -152,9 +192,21 @@ knitr::include_graphics("images/nitrogen.png")
 
 ## Sementes na camada arável:
 
-- Efeitos do plantio direto no enterro de sementes
+- Efeitos do preparo do solo na profundidade de sementes
 
-- Efeitos do plantio direto na germinação de sementes
+- Efeitos do preparo do solo na na germinação de sementes
+
+
+
+---
+
+# Sementes na camada arável
+
+## Efeitos do preparo do solo na profundidade de sementes
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/deep_2.png")
+``` 
 
 
 
@@ -163,7 +215,7 @@ knitr::include_graphics("images/nitrogen.png")
 
 # Sementes na camada arável:
 
-## Efeitos do preparo do solo no enterro de sementes
+## Efeitos do preparo do solo na profundidade de sementes
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
@@ -203,7 +255,7 @@ knitr::include_graphics("images/russian.png")
 
 ## Sementes na camada arável
 
-Efeitos do plantio direto na germinação:
+Efeitos do preparo do solo na germinação:
 
 - Posicionamento de sementes perto da superfície do solo
 
@@ -219,12 +271,14 @@ Efeitos do plantio direto na germinação:
 
 # O banco de sementes de plantas daninhas
 
-## Efeitos do plantio direto na germinação de sementes
+## Efeitos do preparo do solo na germinação de sementes
 
 solos suaves (macios) aquecem mais rapidamente
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/date.png")
+``` 
 
 
 ---
@@ -243,8 +297,9 @@ solos suaves (macios) aquecem mais rapidamente
 
 
 .pull-right[
-
-
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/day_night.png")
+``` 
 ]
 
 ---
@@ -272,6 +327,22 @@ knitr::include_graphics("images/seedbank_2.png")
 - A maioria das predações ocorrerá na superfície do solo
 
 
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://news.psu.edu/sites/default/files/styles/gss_thumbnail/public/Harvester%20ant%20nest.jpg?itok=-zeM9J3L")
+``` 
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://besjournals.onlinelibrary.wiley.com/cms/asset/fdabdb75-9822-43f0-a4cf-cc7c19f88405/fec12143-toc-0001-m.jpg")
+``` 
+]
+
+
+
+
 ---
 
 # Armazenamento do banco de sementes
@@ -280,7 +351,23 @@ knitr::include_graphics("images/seedbank_2.png")
 
 - Muitas espécies (particularmente espécies de folha larga). Podem permanecer viáveis no banco de sementes por > 20 anos
 
-- Foram descobertas sementes viáveis de cordeiros e espoletas de milho (*Spergula arvensis*; Caryophyllaceae), datadas de 1700 anos
+- Foram descobertas sementes viáveis de cordeiros e esperguta (*Spergula arvensis*; Caryophyllaceae), datadas de 1700 anos
+
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gewone_spurrie_plant_Spergula_arvensis.jpg/440px-Gewone_spurrie_plant_Spergula_arvensis.jpg")
+``` 
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://plants.usda.gov/gallery/standard/spar_002_shp.jpg")
+``` 
+]
+
+
 
 
 ---
@@ -292,7 +379,7 @@ knitr::include_graphics("images/seedbank_2.png")
 
 - As condições profundas no solo são frescas e úmidas
 
-- Quanto mais profundo o enterro, mais tempo a semente pode permanecer viável (sem perturbações e dormência)
+- Quanto mais a profundidade, mais tempo a semente pode permanecer viável (sem perturbações e dormência)
 
 - A dormência do banco de sementes garante a sobrevivência das espécies em sistemas com perturbações frequentes
 
@@ -306,30 +393,67 @@ knitr::include_graphics("images/seedbank_2.png")
 
 Se um produtor contrata você para determinar quantas ervas daninhas de quais espécies existiam em uma lavoura, como você faria isso?
 
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif")
+```
+
 
 ---
 
 # Medindo o banco de sementes no solo
 
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/soil_collection.jpeg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/seed_bank.png")
+```
+]
+
+---
+
+# Medindo o banco de sementes no solo
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/trado.png")
+```
 
 
+---
+
+# Limpeza
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/clean_1.png")
+```
+
+
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/clean_2.png")
+```
 
 
 
 ---
 
-#
+# Estufa
 
 
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/estufa.png")
+```
 
 
-
----
-
-# 
-
-
-
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/estufa_2.png")
+```
 
 
 
@@ -357,7 +481,7 @@ knitr::include_graphics("images/seedbank.png")
 
 - Regulado por complexas interações ambientais, fisiológicas e bioquímicas
 
-vários
+
 
 ---
 
@@ -388,7 +512,9 @@ knitr::include_graphics("images/dormencia.png")
 
 - Falta de oxigênio
 
-
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/jointed_goat.png")
+``` 
 
 ---
 
@@ -396,9 +522,28 @@ knitr::include_graphics("images/dormencia.png")
 
 
 
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/germination.png")
+``` 
 
 
 ---
 
-# 
+# Dúvidas?
+
+
+.center[
+![](https://media.giphy.com/media/2uI9jYTJLILfkAtMqQ/giphy.gif)
+
+```
+MAXWEL COURA OLIVEIRA - maxweloliveira@unoeste.br
+```
+]
+
+
+
+```{r eval=FALSE}
+#remotes::install_github('rstudio/pagedown')
+pagedown::chrome_print("pop_biology.html")
+```
+
