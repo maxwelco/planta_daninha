@@ -1,5 +1,5 @@
 ---
-title: "Biologia Populacional"
+title: "Biologia populacional"
 subtitle: "Parte II"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
@@ -36,826 +36,521 @@ library(pagedown)
 
 - Explicar os processos que controlam o destino das sementes no banco de sementes
 
-- Quantificar o recrutamento (emergência, maturação e imigração) 
+- Quantifique o recrutamento (emergência, maturação e imigração) 
 
 - Discutir os fatores que afetam a sobrevivência e a produção de sementes
 
 - Descrever maneiras pelas quais as plantas se dispersam
 
+
 ---
 
-# Causas de dormência
+# O banco de sementes de plantas daninhas
 
 
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+``` 
+
+
+---
+
+# O banco de sementes de plantas daninhas
+
+## Depósitos, retiradas e armazenamento em bancos de sementes:
+
+- Os depósitos incluem chuva de sementes da produção, dispersão e imigração de sementes
+--
+
+
+- As retiradas ocorrem por germinação, senescência, morte e predação
+--
+
+
+- O armazenamento resulta da distribuição vertical de sementes dormentes viáveis através do perfil do solo
+
+
+---
+
+# O banco de sementes de plantas daninhas
+
+## Destino das sementes na superfície do solo:
+
+- Morte (declínio ou predação)
+
+- Germinação
+
+- Entrada na camada de arável
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/d83U1vYHFiczd83cjZ/giphy.gif")
+``` 
+
+
+---
+
+# Fatores que contribuem para o sucesso da germinação
+
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/temperature.png")
+``` 
+
+
+
+---
+
+# Fatores que contribuem para o sucesso da germinação
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/temperature_2.png")
+``` 
+
+
+---
+
+# Fatores que contribuem para o sucesso da germinação
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/water_pot.png")
+``` 
+
+
+
+---
+
+# Fatores que contribuem para o sucesso da germinação
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/nitrogen.png")
+``` 
+
+
+
+---
+
+# O banco de sementes de plantas daninhas
+
+
+## Destino das sementes na superfície do solo:
+--
+
+
+- Morte (declínio ou predação)
+--
+
+
+- Germinação
+--
+
+
+- Entrada na camada de arado -
+    - características especiais da espécie permitem que ela penetre na superfície do solo
+    - rachaduras no solo, enterro por minhocas, insetos, roedores
+    - qualquer forma de preparo do solo
+
+---
+
+# Qual semente de planta é essa?
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://bugwoodcloud.org/images/768x512/1459393.jpg")
+``` 
+
+
+---
+
+# Aveia-doida (*Avena fatua*)
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/Cn1Jo_pUkAEf56T?format=jpg&name=medium")
+``` 
+]
+
+.pull-right[
+
+- Observe a aparência distorcida da arista, logo abaixo de onde ele se dobra? 
+
+- Quando molhado, a arista se torce, fazendo com que a parte dobrada gire. Ele age como um trado para garantir bom contato da semente com o solo
+
+- A semente de aveia selvagem basicamente se cava no solo para garantir um estabelecimento bem-sucedido.
+
+]
+
+
+
+---
+
+
+# O banco de sementes de plantas daninhas
+
+
+## Sementes na camada arável:
+
+- Efeitos do preparo do solo na profundidade de sementes
+
+- Efeitos do preparo do solo na na germinação de sementes
+
+
+
+---
+
+# Sementes na camada arável
+
+## Efeitos do preparo do solo na profundidade de sementes
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/deep_2.png")
+``` 
+
+
+
+---
+
+
+# Sementes na camada arável:
+
+## Efeitos do preparo do solo na profundidade de sementes
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/arados.png")
+``` 
+
+
+
+---
+
+# Sementes na camada arável
+
+## Influência do preparo do solo na distribuição de sementes no perfil do sol
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/seed_wi.png")
+``` 
+
+
+---
+
+# Sementes na camada arável
+
+## Efeitos do preparo do solo na germinação
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/russian.png")
+``` 
+
+
+---
+
+
+# O banco de sementes de plantas daninhas
+
+## Sementes na camada arável
+
+Efeitos do preparo do solo na germinação:
+
+- Posicionamento de sementes perto da superfície do solo
+
+- Solos suaves (macios) aquecem mais rapidamente
+
+- Aumento do teor de oxigênio do solo superficial
+
+- Efeitos de luz na germinação
+
+
+
+---
+
+# O banco de sementes de plantas daninhas
+
+## Efeitos do preparo do solo na germinação de sementes
+
+solos suaves (macios) aquecem mais rapidamente
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/date.png")
+``` 
+
+
+---
+
+# Efeitos do preparo do solo na germinação
+
+.pull-left[
+- Posicionamento de sementes perto da superfície do solo
+
+- Solos suaves (macios) aquecem mais rapidamente
+
+- Aumento do teor de oxigênio do solo superficial
+
+- Efeitos de luz na germinação
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/day_night.png")
+``` 
+]
+
+---
+
+# O banco de sementes de plantas daninhas, N<sub>t</sub>
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/seedbank_2.png")
+``` 
+
+
+
+---
+
+# Predação
+
+
+- Sistemas de plantio direto e sistemas de forragem / perenes
+
+- Pouco distúrbio
+
+- Maioria da chuva de sementes pode ser eliminada por predação
+
+- A maioria das predações ocorrerá na superfície do solo
+
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://news.psu.edu/sites/default/files/styles/gss_thumbnail/public/Harvester%20ant%20nest.jpg?itok=-zeM9J3L")
+``` 
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://besjournals.onlinelibrary.wiley.com/cms/asset/fdabdb75-9822-43f0-a4cf-cc7c19f88405/fec12143-toc-0001-m.jpg")
+``` 
+]
+
+
+
+
+---
+
+# Armazenamento do banco de sementes
+
+- Permite a dispersão no tempo
+
+- Muitas espécies (particularmente espécies de folha larga). Podem permanecer viáveis no banco de sementes por > 20 anos
+
+- Foram descobertas sementes viáveis de cordeiros e esperguta (*Spergula arvensis*; Caryophyllaceae), datadas de 1700 anos
+
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Gewone_spurrie_plant_Spergula_arvensis.jpg/440px-Gewone_spurrie_plant_Spergula_arvensis.jpg")
+``` 
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://plants.usda.gov/gallery/standard/spar_002_shp.jpg")
+``` 
+]
+
+
+
+
+---
+
+# Armazenamento do banco de sementes
+
+
+## A longevidade no solo pode ser substancial
+
+- As condições profundas no solo são frescas e úmidas
+
+- Quanto mais a profundidade, mais tempo a semente pode permanecer viável (sem perturbações e dormência)
+
+- A dormência do banco de sementes garante a sobrevivência das espécies em sistemas com perturbações frequentes
+
+
+
+---
+
+
+# Medindo o banco de sementes no solo
+
+
+Se um produtor contrata você para determinar quantas ervas daninhas de quais espécies existiam em uma lavoura, como você faria isso?
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif")
+```
+
+
+---
+
+# Medindo o banco de sementes no solo
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/soil_collection_4.png")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/seed_bank.png")
+```
+]
+
+---
+
+# Medindo o banco de sementes no solo
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/trado.png")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/soil_collection_3.png")
+```
+]
+
+---
+
+# Limpeza
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/clean_1.png")
+```
+
+
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/clean_2.png")
+```
+
+
+
+---
+
+# Estufa
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/estufa.png")
+```
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/estufa_2.png")
+```
+
+
+
+---
+
+# O banco de sementes de plantas daninhas, N<sub>t</sub>
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+``` 
+
+
+
+
+---
+
+# Dormência
+
+**Dormência** - falha na germinação de sementes viáveis
+
+- Mecanismo de sobrevivência
+
+- Permite a dispersão no tempo
+
+- Regulado por complexas interações ambientais, fisiológicas e bioquímicas
+
+
+
+---
+
+# Mudanças na semente
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/dormencia.png")
+``` 
+
+
+
+
+---
+
+# Causas da dormência
+
+
+- Ambiente desfavorável
 
 - Embrião imaturo
 
-- Necessário pós-amadurecimento
-
-- Estimulação de algum processo
+- É necessário estimular algum processo - após o amadurecimento
 
 - Inibidor de germinação está presente
 
 - Sementeira dura
 
+- Falta de oxigênio
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://image.slidesharecdn.com/florfrutosemente-170804154642/95/angiospermas-flor-fruto-e-semente-14-638.jpg?cb=1501861732")
-``` 
-
-
-
----
-
-
-# Papel da luz na dormência
-
-- Sementes de ~ metade de todas as espécies de plantas daninhas têm necessidade de luz
-
-- Ausência de luz pode induzir dormência
-
-- Os requisitos de luz são mediados pelo fitocromo
-
-- *Bidens pilosa* 
-
-
-.pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://www.scielo.br/img/revistas/babt/v41n1/a02fig2.jpg")
-``` 
-
-```{r echo=FALSE, out.width=250, fig.align='center'}
-knitr::include_graphics("https://www.greenlife.co.ke/wp-content/uploads/bidens_pilosa.jpg")
-``` 
-]
-
-
-
-.pull-right[
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("images/bidens.png")
-``` 
-]
-
-
-
----
-
-# Fitocromo
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://www.mdpi.com/ijms/ijms-20-06165/article_deploy/html/images/ijms-20-06165-g001.png")
-``` 
-
-
-.pull-left[
 ```{r echo=FALSE, out.width=300, fig.align='center'}
-knitr::include_graphics("https://www.researchgate.net/profile/Haiyang_Wang6/publication/221803969/figure/fig1/AS:305413120643076@1449827570633/Absorption-spectra-of-phytochromes-EVRUSWLRQ-VSHFWUD-RI-WKH-WZR-IRUPV-3U-DQG-3IU-RI.png")
-``` 
-]
-
-
-.pull-right[
-
-
-- Luz vermelha produz Pfr e promove a germinação
-
-- Luz vermelha distante produz Pr e inibe a germinação
-
-]
-
----
-
-# Fitocromo
-
-.pull-left[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/light_day.png")
-``` 
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/clorofila.png")
-``` 
-
-]
-
-
-.pull-right[
-
-
-```{r echo=FALSE, out.width=230, fig.align='center'}
-knitr::include_graphics("images/relation.png")
-``` 
-
-]
-
-
-
-
-
----
-
-# Categorias de dormência
-
-
-- **Físico** - A restrição física de acesso à água ou gás
-    - Semeadura dura
-    - Más condições ambientais
---
-
-
-- Desenvolvimento incompleto do embrião
---
-
-
-- **Fisiológico** - inerente à semente madura. Impede a germinação em um ambiente hostil e preserva as sementes para entrada no banco de sementes:
-    - Controlado por gatilho bioquímico
-    - Remoção de um inibidor
-    
-
----
-
-# Recrutamento
-
-**Recrutamento** é o estabelecimento de uma planta adulta a partir de uma semente ou por imigração
-
-
-
-
----
-
-# O ciclo de vida de uma erva daninha anual
-
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
-
-
----
-
-# Recrutamento
-
-
-- A **germinação** é o processo de desenvolvimento das plantas a partir do embrião quantificado pela emergência do radical do revestimento da semente
-
-- A emergência ocorre quando a plântula rompe a superfície do solo
-
-
-- Sobrevivência de plântula
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://media.giphy.com/media/mDBBU8K7Np2UQs9Dqy/giphy.gif")
+knitr::include_graphics("images/jointed_goat.png")
 ``` 
 
 ---
 
-# Germinação e Emergência
-
-
-.pull-left[
-
-
-
-
-]
-
-
-.pull-right[
-
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/seed_germination_1.png")
-``` 
-
-]
-
-
-
----
+# Causas de dormência - ambiente desfavorável
 
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/seed_germination_3.png")
-``` 
-
-
-
-
-
----
-
-# Emergência
-
-## A emergência é determinada em parte por
---
-
-
-.pull-left[
-
-- Temperatura e água
-
-- Fatores genéticos
-    
-- Profundidade da semente
-    
-- Quantidade de recursos disponíveis para a muda (endosperma)
-    
-- Fatores que contribuem para a mortalidade.
-]
-
-
-.pull-right[
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/seed_germination_2.png")
-``` 
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("https://image.freepik.com/free-vector/diagram-plant-growth-stages_1308-22389.jpg")
-``` 
-]
-
----
-
-# Emergência
-
-
-## A emergência é determinada em parte por
---
-
-- Temperatura
-
-- Fatores genéticos
-
-.pull-left[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/harzter_1.png")
-``` 
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/hartzler_2.png")
-``` 
-]
-
-
-
-
----
-
-# Emergência
-
-
-## A emergência é determinada em parte por
---
-
-
-
-
-
-.pull-left[
-
-- Temperatura
-
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/werle_1.png")
-``` 
-]
-
-
----
-
-# Emergência
-
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/werle_2.png")
+knitr::include_graphics("images/germination.png")
 ``` 
 
 
 ---
 
-# Emergência
-
-## A emergência é determinada em parte por
---
-
-.pull-left[
-
-- Profundidade da semente
-
-]
+# Dúvidas?
 
 
-.pull-right[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/deep_burial.png")
-``` 
-]
+.center[
+![](https://media.giphy.com/media/2uI9jYTJLILfkAtMqQ/giphy.gif)
 
-
-
-
----
-
-# Emergência
-
-## A emergência é determinada em parte por
---
-
-
-
-- Água no solo
-
-
-
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/water.png")
-``` 
-
-
----
-
-# Emergência
-
-## A emergência é determinada em parte por
---
-
-
-- Tamanho de sementes
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/seed_size.png")
-``` 
-
-    
----
-
-# Emergência
-
-
-## A emergência é determinada em parte por:
-
-
-- Mortalidade
-    
-    
-.pull-left[
-```{r echo=FALSE, out.width=330, fig.align='center'}
-knitr::include_graphics("images/spraying.png")
-``` 
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/weed_control.png")
-``` 
-]
-
-    
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
 ```
-
----
-
-# Como quantificamos emergência?
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/eval_emergence.png")
-```
-
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
----
-
-# Sobrevivência de plântulas
-
-- Quais fatores ambientais influenciam a sobrevivência de plântulas?
-
-
-- Quais fatores de manejo influenciam a sobrevivência de plântulas?
-
-
-
----
-
-# Sobrevivência de plântulas
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/seedling_survival.png")
-```
-
-
-
----
-
-# Sobrevivência de plântulas
-
-## Como quantificamos a emergência?
-
-
-.pull-left[
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/eval_emergence.png")
-``` 
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=300, fig.align='center'}
-knitr::include_graphics("images/seedling_survival_2.png")
-``` 
-]
-
-
-
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
----
-
-# Produção de Sementes
-
-
-- Sementes plant<sup>-1</sup>
-
-
-
-- Sementes m<sup>-2</sup> = (Sementes plant<sup>-1</sup>) * (Plantas<sup>-1</sup>)
-
-
-
----
-
-# Produção de Sementes
-
-
-.pull-left[
-
-- Sementes plant<sup>-1</sup>
-
-- Quais fatores de manejo e do ambiente influenciam a produção de sementes?
-
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("images/retention_1.png")
-```
-
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=300, fig.align='center'}
-knitr::include_graphics("images/retention_3.png")
-```
-]
-
----
-
-# Produção de Sementes
-
-
-.pull-left[
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/retention_2.png")
-```
-
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/waterhemp.png")
-```
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/waterhemp_2.png")
-```
-
-]
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
-
-
-
----
-
-# Dispersão
-
-
-- As plantas anuais são dispersas por sementes
-
-- As plantas perenes podem ser dispersas por sementes ou por tecidos reprodutivos assexuais (propágulos)
-
-    - Estolões
-
-    - Rizomas
-
-    - Tubérculos
-
-    - Bulbos
-    
-    - Turião 
-
-
-
-
----
-
-# Tecidos vegetativos
-
-
-- Crescem e desenvolve longe da planta mãe
-
-- Move fisicamente
-
-
-
-
-
-
----
-
-# Agentes de dispersão natural de sementes
-
-
-- Vento
-
-- Água
-
-- Animais
-
-- Deiscência violenta
-
-- Sementes contaminadas
-
-
-
----
-
-
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/vegetativo.png")
-```
-
-
-
----
-
-# Rizomas
-
-
-.pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://lh3.googleusercontent.com/proxy/uVsq6aUBVJuljuw61BtszGp7ejqO-Jo-ZfvL-_ONVMNrcL2ZOsazR0m2bk3PASpeMMIQtoaNLsTkaBIAwqOtKHhp5vD-hm21do0sd18g1t1Z4c-g9ylw9KB0c1SDmrhrQZ4ySvI")
-```
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/rizoma.png")
-```
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlH6G3Hir9yipJ_9pHmOuk037hIAbvUTgsTg&usqp=CAU")
-```
-
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/phragmites.png")
-```
-
-]
-
-
----
-
-# Capim amargoso - rizoma
-
-
-
-
-.pull-left[
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://blog.aegro.com.br/wp-content/uploads/2019/05/4-capim-amargoso.jpg")
-```
-
-
-```{r echo=FALSE, out.width=250, fig.align='center'}
-knitr::include_graphics("https://lh3.googleusercontent.com/proxy/tfOG-KYqRCZCh0GuSfAngIZT1yF-PP5tr-RHWOEAl2IZhaWNbFQwNlP8gp2-VOX51hfGOHN7PCqZbSUuPjaDWWCHL3pbYxoQaMDGW3mnt8_fiVpuLR42EnFcWXVAH1WbJACPrqrzgknrpRwpQAf5bpGQ")
-```
-
-]
-
-
-.pull-right[
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlH6G3Hir9yipJ_9pHmOuk037hIAbvUTgsTg&usqp=CAU")
-```
-
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://www.grupocultivar.com.br/ativemanager/uploads/galeria/ace93-capim-amargoso-3.jpg")
-```
-]
-
-
----
-
-# Rizomas e estolão
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("https://media.buzzle.com/media/images-en/illustrations/botany/plants/1200-610802-stolons-and-rhizomes.jpg")
-```
-
-
-
----
-
-
-# Tiririca - tubérculos
-
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/tiririca_1.png")
-```
-
-
-
----
-
-# Estolões
-
-- Morango
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("https://image.shutterstock.com/image-photo/stolons-strawberry-on-black-background-260nw-1493815742.jpg")
-```
-
-
-
----
-
-# Turião 
-
-
-.pull-left[
-
-- Aspargos 
-
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://cdn.ecvol.com/s/www.gardenmania.com.br/produtos/sementes-de-aspargo-mary-washington-asparagus-officinalis/z/0.jpg?v=")
-```
-]
-
-
-.pull-right[
-
-- *Utricularia macrorhiza*
-
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://lh3.googleusercontent.com/proxy/II-6Af2kEeJgzoUAZikRsLi6NF2Na8Ppg62tOXfRT7JDzSJpCzYAPpiBPVafs9V4xev08MHLKwSRozy88LVmkUn3GL2fO9ZBWZIMSfVIeAIA1RGOyV2jiWOMvE5L-A")
+MAXWEL COURA OLIVEIRA - maxweloliveira@unoeste.br
 ```
 ]
 
 
 
-
-
-
-
-
----
-
-Lembre-se de que derivamos a equação de crescimento exponencial:
-
-N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>, 
-
-que, se N<sub>0</sub> = 2 e R = 5, obtemos:
-
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/exp_growth.png")
+```{r eval=FALSE}
+#remotes::install_github('rstudio/pagedown')
+pagedown::chrome_print("pop_biology_2.html")
 ```
-
-
-
----
-
-# O ciclo de vida de uma planta daninha anual
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
----
-
-# A equação fundamental da biologia populacional
-
-
-
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
-
-N<sub>t</sub> = Armazenamento
-
-
-Nascimentos + imigrantes = depósitos
-
-
-Mortes (e outras perdas) + Emigrantes = retiradas
-
-- N<sub>t+1</sub> = tamanho da população do banco de sementes (número de sementes) no tempo t + 1
-
-
-- N<sub>t</sub> = tamanho da população do banco de sementes (número de sementes) no momento t
-
-
-
----
-
-# A equação fundamental da biologia populacional
-
-
-
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
-
-
-- **Nascimentos** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
-
-- **Imigração** = acréscimos à população - que surgiram de outra população
-
-- **Óbitos** = perdas da população devido a óbito ou predação
-
-- **Emigração** = perdas da população resultantes da mobilidade
-
-
 
