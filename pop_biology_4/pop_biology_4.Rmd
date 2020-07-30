@@ -1,0 +1,246 @@
+---
+title: "Biologia Populacional"
+subtitle: "Parte IV"
+author: "Maxwel Coura Oliveira"
+institute: "Universidade do Oeste Paulista"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, fc, robot-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.align = "center",
+  message = FALSE,
+  warning = FALSE,
+  cache = TRUE
+)
+```
+
+```{r}
+library(pagedown)
+```
+
+
+Lembre-se de que derivamos a equação de crescimento exponencial:
+
+N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>, 
+
+que, se N<sub>0</sub> = 2 e R = 5, obtemos:
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/exp_growth.png")
+```
+
+
+
+---
+
+# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+```
+
+
+
+---
+
+# A equação fundamental da biologia populacional
+
+
+
+> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
+
+
+- N<sub>t+1</sub> = tamanho da população do banco de sementes (número de sementes) no tempo t + 1
+
+- N<sub>t</sub> = tamanho da população do banco de sementes (número de sementes) no momento t
+
+
+N<sub>t</sub> = **Armazenamento**
+
+
+Nascimentos + imigrantes = **depósitos**
+
+
+Mortes (e outras perdas) + Emigrantes = **retiradas**
+
+
+
+---
+
+# A equação fundamental da biologia populacional
+
+
+
+> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes 
+
+
+- **Nascimentos** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
+
+- **Imigração** = acréscimos à população - que surgiram de outra população
+
+- **Mortes** = perdas da população devido a morte, predação our geminação
+
+- **Emigração** = perdas da população resultantes da mobilidade
+
+
+
+---
+
+# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+```
+
+
+---
+
+# A equação do banco de sementes
+
+
+N<sub>t</sub> = tamanho da população do banco de sementes no momento t
+
+> Nascimentos = [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D
+
+N<sub>pl</sub> = N<sub>t</sub> \* E<sub>m</sub>
+
+N<sub>m</sub> = N<sub>pl</sub> \* S<sub>pl</sub> = N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>
+
+Sementes m<sup>-2</sup> = plantas m<sup>-2</sup> \* sementes planta<sup>-1</sup> = N<sub>m</sub> \* P \* (1-E<sub>f</sub>)
+
+Depósitos = N<sub>m</sub> \* P \* (1-E<sub>f</sub>) \* D = N<sub>t</sub> \* E<sub>m</sub> · S<sub>pl</sub> \* P \* (1-E<sub>f</sub>) \* D
+
+.footnote[
+[1] E<sub>f</sub> = eficiência de controle
+]
+
+
+---
+
+# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+```
+
+
+
+---
+
+# A equação do banco de sementes 
+
+
+> **Mortes/Perdas** = [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]
+
+N<sub>t</sub> \* E<sub>m</sub> = germinação e emergência
+
+N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub> = sementes que permanecem no banco de sementes após a emergência
+
+N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub> \* (1-S<sub>bs</sub>) = sementes perdidas por predação, decomposição, etc. de um ano para a próxima
+
+
+
+
+
+---
+
+# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+```
+
+
+
+
+---
+
+# A equação do banco de sementes 
+
+
+
+N<sub>t</sub> = tamanho da população do banco de sementes no momento t
+
+**Nascimentos** = [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D
+
+**Mortes/perdas** = [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]
+ 
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D - [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))] + I-E
+
+
+---
+
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D - [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))] + I-E
+
+
+Onde (variáveis):
+
+
+- E<sub>m</sub> = fração de Nt que germina e emerge
+
+
+- S<sub>pl</sub> = fração de plântulas que sobrevivem até a maturidade
+
+
+- P \* (1-E<sub>f</sub>) = número de sementes produzidas por planta
+
+
+- D = fração de sementes dispersas na área de interesse
+
+
+- S<sub>bs</sub> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+---
+class: inverse, middle, center
+# A Subsection slide
+---
+
+# Quantificando a emergência
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/sb_01.png")
+```
+
+
+---
+
+# E<sub>f</sub> = a fração de N<sub>t</sub> que emerge
+
+
+
+---
+
+# Quantificando a sobrevivência de plântulas
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/sb_02.png")
+```
