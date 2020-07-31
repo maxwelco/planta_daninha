@@ -31,7 +31,7 @@ library(pagedown)
 ```
 
 
-Lembre-se de que derivamos a equação de crescimento exponencial:
+## Lembre-se de que derivamos a equação de crescimento exponencial
 
 N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>, 
 
@@ -46,7 +46,7 @@ knitr::include_graphics("images/exp_growth.png")
 
 ---
 
-# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+# O ciclo de vida de uma erva daninha anual
 
 
 
@@ -102,7 +102,7 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 
 ---
 
-# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+# O ciclo de vida de uma erva daninha anual
 
 
 
@@ -136,7 +136,7 @@ Depósitos = N<sub>m</sub> \* P \* (1-E<sub>f</sub>) \* D = N<sub>t</sub> \* E<s
 
 ---
 
-# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+# O ciclo de vida de uma erva daninha anual
 
 
 
@@ -166,7 +166,7 @@ N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub> \* (1-S<sub>bs</sub>) = sementes pe
 
 ---
 
-# O ciclo de vida de uma erva daninha anual, N<sub>t</sub>
+# O ciclo de vida de uma erva daninha anual
 
 
 
@@ -232,7 +232,33 @@ knitr::include_graphics("images/sb_01.png")
 
 ---
 
-# E<sub>f</sub> = a fração de N<sub>t</sub> que emerge
+# E<sub>m</sub> 
+
+## A fração de N<sub>t</sub> que emerge
+
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/seedlings_lin.png")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/seedling_linear_2.png")
+```
+]
+
+---
+
+# E<sub>m</sub> 
+
+## A fração de N<sub>t</sub> que emerge
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/seedling_linear_3.png")
+```
+
 
 
 
@@ -240,7 +266,204 @@ knitr::include_graphics("images/sb_01.png")
 
 # Quantificando a sobrevivência de plântulas
 
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/sb_02.png")
 ```
+
+
+
+---
+
+# S<sub>pl</sub> 
+
+## A fração de plântulas que sobrevivem até a maturidade
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/muture_linear.png")
+```
+
+
+
+---
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/pop_density.png")
+```
+
+
+
+---
+
+# S<sub>pl</sub> 
+
+## A fração de plântulas que sobrevivem até a maturidade
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/surviving_seedlings.png")
+```
+
+
+
+---
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/tillage_emergence.png")
+```
+
+
+---
+
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/emergence_waterhemp.png")
+```
+
+
+---
+
+# Dependência de densidade
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/sb_03.png")
+```
+
+
+---
+
+# N<sub>t</sub> = R<sup>t</sup>N<sub>0</sub>
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://kivu.com/wp-content/uploads/2015/05/human-pop-growth.jpg")
+```
+
+
+
+
+---
+
+# Equação logistica
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/f/ff/Logistic_Carrying_Capacity.svg")
+```
+
+
+
+---
+
+# Dependência da densidade
+
+
+- Quando aumentamos a população de plantio de milho, o que acontece com o tamanho da espiga em cada planta?
+
+- O que acontece com o rendimento?
+
+
+
+---
+
+# P = número de sementes produzidas por planta
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/seedsperplant.png")
+```
+
+---
+
+# Número total de sementes produzidas
+
+## P \* N<sub>m</sub>
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/seed_prodution.png")
+```
+
+---
+
+
+
+# O ciclo de vida de uma erva daninha anual
+
+
+
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/sb_04.png")
+```
+
+
+
+---
+
+# S<sub>pl</sub>
+
+## Fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/spring_seedbank_01.png")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/spring_seedbank_02.png")
+```
+]
+
+
+---
+
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D - [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))] + I-E
+
+
+Onde (variáveis):
+
+
+- E<sub>m</sub> = fração de Nt que germina e emerge
+
+
+- S<sub>pl</sub> = fração de plântulas que sobrevivem até a maturidade
+
+
+- P \* (1-E<sub>f</sub>) = número de sementes produzidas por planta
+
+
+- D = fração de sementes dispersas na área de interesse
+
+
+- S<sub>bs</sub> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+---
+
+# Dúvidas?
+
+
+.center[
+![](https://media.giphy.com/media/3oxHQqbAXz5W6GpHSE/giphy.gif)
+
+```
+MAXWEL COURA OLIVEIRA - maxweloliveira@unoeste.br
+```
+]
+
+
+
+```{r eval=FALSE}
+#remotes::install_github('rstudio/pagedown')
+pagedown::chrome_print("pop_biology_4.html")
+```
+
