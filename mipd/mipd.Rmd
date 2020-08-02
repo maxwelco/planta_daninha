@@ -3,7 +3,7 @@ title: "Manejo Integrado de Plantas Daninhas"
 subtitle: "MIPD"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
-#date: "2016/12/12 (updated: `r Sys.Date()`)"
+#date: 
 output:
   xaringan::moon_reader:
     css: [default, fc, robot-fonts]
@@ -12,6 +12,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+#      ratio: 16:9
 ---
 
 ```{r setup, include=FALSE}
@@ -24,6 +25,8 @@ knitr::opts_chunk$set(
   warning = FALSE,
   cache = TRUE
 )
+
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome()) #show twitter logo
 ```
 
 ```{r}
