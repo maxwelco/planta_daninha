@@ -1,0 +1,264 @@
+---
+title: "Nível de dano econômico"
+#subtitle: "Parte V"
+author: "Maxwel Coura Oliveira"
+institute: "Universidade do Oeste Paulista"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, fc, robot-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Objetivos
+
+- Entender relação entre rendimento, perda de rendimento e densidade de plantas daninhas
+
+- Usar a relação perda de produtividade - densidade de plantas daninhas para calcular um limite econômico de densidade de plantas daninhas
+
+- Calcular o retorno líquido sob várias estratégias de controle de plantas daninhas
+
+
+
+---
+
+# Interferência de plantas daninhas
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/yield_loss.png")
+```
+
+---
+
+class: center, middle
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/yield_loss_2.png")
+```
+
+---
+
+# Perda de produtividade
+
+A perda de produtividade (Y<sub>L</sub>) é determinada a partir da produtividade relativo na mistura (Y<sub>mix</sub>) e na produtividade sem plantas daninhas (Y<sub>wf</sub>)
+
+- Y<sub>L</sub> = (Y<sub>wf</sub>-Y<sub>mix</sub>) / Y<sub>wf</sub> = 1-Y<sub>mix</sub> / Y<sub>wf</sub>
+
+Ou:
+
+- Y<sub>L</sub> (%) = (1-Y<sub>mix</sub> / Y<sub>wf</sub>) * 100
+
+
+---
+
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+- Quando não há plantas daninhas presentes, não pode haver redução de rendimento.
+
+- Os efeitos da planta daninha são aditivos em baixas densidades de planta daninha (N):
+
+.center[Y<sub>L</sub> = I\*N]
+
+- A perda de produtividade nunca pode exceder 100%, mas se aproxima de algum limite assintótico, tipicamente abaixo de 100%.
+
+
+---
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/A_and_I.png")
+```
+
+
+
+---
+
+# A função da perda de produtividade
+
+
+
+
+
+
+
+onde: 
+
+- YL = perda de produtividade
+
+I = perda proporcional de produtividade à medida que a densidade de plantas daninhas se aproxima de zero
+
+A = perda máxima proporcional de produtividade (a assíntota superior)
+
+N = densidade de plantas daninhas
+
+
+---
+
+# Interferência de plantas daninhas
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/yield_loss.png")
+```
+
+
+
+---
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/yield_loss_4.png")
+```
+
+
+---
+
+# Nível de dano econômico
+
+- Nível de dano econômico (Te) é a densidade de plantas daninhas na qual o custo de uma medida de controle é igual à perda de valor resultante da interferência de plantas daninhas
+
+
+Te = C / (YwfPIEf)
+
+
+
+Onde:
+
+- C = custo do herbicida e sua aplicação (R$ / ha)
+
+- Y<sub>wf</sub> = produtividade de culturas sem plantas daninhas (kg / ha) ou objetivo de produtividade
+
+- P = preço da safra (R$ / ha)
+
+- I = perda de produtividade à medida que a densidade de plantas daninhas se aproxima de zero (da equação de perda de produtividade)
+
+- E<sub>f</sub> = eficácia do herbicida (proporção de mudas mortas)
+
+
+---
+
+# Retorno econômico líquido
+
+Retorno Líquido = Retorno Bruto - Custos de Produção
+
+NR = [Y * P] - [C + M]
+
+
+Onde:
+
+- NR = retorno líquido (R$ / ha)
+
+- Y = rprodutividade da cultura (R$ / ha)
+
+- P = preço recebido pela safra ($ / ha)
+
+- C = custo do manejo de plantas daninhas (R$ / ha)
+
+- M = todos os outros custos de manejo (R$ / ha)
+
+
+---
+
+
+# Decisões de manejo de plantas daninhas
+
+- Como você sabe quantas plantas daninhas existem em uma lavoura?
+--
+
+
+- Como você usa essas informações para fazer uma recomendação?
+--
+
+
+- As plantas daninhas são distribuídas uniformemente nas lavouras?
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/IfsxP5r7WmhP5P6seN/giphy.gif")
+```
+
+
+
+---
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/aerial_1.png")
+```
+
+
+
+---
+
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/aerial_2.png")
+```
+
+
+---
+
+
+Suponha que as células da tabela a seguir listem a densidade média de capim pé-de-galinha (plantas m<sup>-2</sup>) para uma área de 5 ha (ou seja, 20 células cada representando 5 ha significa que o campo tem tamanho total de 100 ha)
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/grid.png")
+```
+
+
+- A densidade média de pé-de-galinha em todo este campo é de 1,8 / 20 = 0,09 plantas m<sup>-2</sup>.
+
+
+---
+
+
+Agora, suponha que tenhamos identificado os seguintes valores:
+
+
+- C = US $ 35 / acre (isso varia dependendo do seu programa de gerenciamento)
+
+- Y = 190 bu / acre (depende do clima, ambiente do solo e manejo)
+
+- P = 4,25 $ / bu (depende de muitas coisas, bastante variável)
+
+- I = perda de rendimento de 30% (varia de acordo com o clima, o ambiente do solo e o gerenciamento - aquelas 
+coisas que podem influenciar o desempenho e a concorrência da planta)
+
+- E<sub>f</sub> = 95% (depende das condições ambientais, idade das plantas daninhas, etc. no momento em que o manejo é aplicado)
+
+- A = 60% (também variável)
+
+- T<sub>e</sub> = C / YPIE<sub>f</sub>
+
+
+
+---
+
+
+Se usássemos toda a densidade de capim pé-de-galinha da lavoura e esse limite econômico de densidade de capim pé-de-galinha para decidir se o manejo é garantido, o que faríamos?
+
+- Devemos pulverizar todo o campo? ou apenas os blocos que possuem densidades que excedem o limite?
+
+- T<sub>e</sub> mudaria se o preço obtido para a safra diminuísse?
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/igtdauKhbfyHpf6N1W/giphy.gif")
+```
+

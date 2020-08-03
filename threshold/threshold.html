@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nível de dano econômico</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Maxwel Coura Oliveira" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/fc.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/robot-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nível de dano econômico
+### Maxwel Coura Oliveira
+### Universidade do Oeste Paulista
+
+---
+
+
+# Objetivos
+
+- Entender relação entre rendimento, perda de rendimento e densidade de plantas daninhas
+
+- Usar a relação perda de produtividade - densidade de plantas daninhas para calcular um limite econômico de densidade de plantas daninhas
+
+- Calcular o retorno líquido sob várias estratégias de controle de plantas daninhas
+
+
+
+---
+
+# Interferência de plantas daninhas
+
+
+&lt;img src="images/yield_loss.png" width="500" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle
+
+&lt;img src="images/yield_loss_2.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Perda de produtividade
+
+A perda de produtividade (Y&lt;sub&gt;L&lt;/sub&gt;) é determinada a partir da produtividade relativo na mistura (Y&lt;sub&gt;mix&lt;/sub&gt;) e na produtividade sem plantas daninhas (Y&lt;sub&gt;wf&lt;/sub&gt;)
+
+- Y&lt;sub&gt;L&lt;/sub&gt; = (Y&lt;sub&gt;wf&lt;/sub&gt;-Y&lt;sub&gt;mix&lt;/sub&gt;) / Y&lt;sub&gt;wf&lt;/sub&gt; = 1-Y&lt;sub&gt;mix&lt;/sub&gt; / Y&lt;sub&gt;wf&lt;/sub&gt;
+
+Ou:
+
+- Y&lt;sub&gt;L&lt;/sub&gt; (%) = (1-Y&lt;sub&gt;mix&lt;/sub&gt; / Y&lt;sub&gt;wf&lt;/sub&gt;) * 100
+
+
+---
+
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+- Quando não há plantas daninhas presentes, não pode haver redução de rendimento.
+
+- Os efeitos da planta daninha são aditivos em baixas densidades de planta daninha (N):
+
+.center[Y&lt;sub&gt;L&lt;/sub&gt; = I\*N]
+
+- A perda de produtividade nunca pode exceder 100%, mas se aproxima de algum limite assintótico, tipicamente abaixo de 100%.
+
+
+---
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+&lt;img src="images/A_and_I.png" width="600" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+# A função da perda de produtividade
+
+
+
+
+
+
+
+onde: 
+
+- YL = perda de produtividade
+
+I = perda proporcional de produtividade à medida que a densidade de plantas daninhas se aproxima de zero
+
+A = perda máxima proporcional de produtividade (a assíntota superior)
+
+N = densidade de plantas daninhas
+
+
+---
+
+# Interferência de plantas daninhas
+
+
+&lt;img src="images/yield_loss.png" width="500" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+# Perda de produtividade
+
+## Relação de densidade de plantas
+
+
+&lt;img src="images/yield_loss_4.png" width="500" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+# Nível de dano econômico
+
+- Nível de dano econômico (Te) é a densidade de plantas daninhas na qual o custo de uma medida de controle é igual à perda de valor resultante da interferência de plantas daninhas
+
+
+Te = C / (YwfPIEf)
+
+
+
+Onde:
+
+- C = custo do herbicida e sua aplicação (R$ / ha)
+
+- Y&lt;sub&gt;wf&lt;/sub&gt; = produtividade de culturas sem plantas daninhas (kg / ha) ou objetivo de produtividade
+
+- P = preço da safra (R$ / ha)
+
+- I = perda de produtividade à medida que a densidade de plantas daninhas se aproxima de zero (da equação de perda de produtividade)
+
+- E&lt;sub&gt;f&lt;/sub&gt; = eficácia do herbicida (proporção de mudas mortas)
+
+
+---
+
+# Retorno econômico líquido
+
+Retorno Líquido = Retorno Bruto - Custos de Produção
+
+NR = [Y * P] - [C + M]
+
+
+Onde:
+
+- NR = retorno líquido (R$ / ha)
+
+- Y = rprodutividade da cultura (R$ / ha)
+
+- P = preço recebido pela safra ($ / ha)
+
+- C = custo do manejo de plantas daninhas (R$ / ha)
+
+- M = todos os outros custos de manejo (R$ / ha)
+
+
+---
+
+
+# Decisões de manejo de plantas daninhas
+
+- Como você sabe quantas plantas daninhas existem em uma lavoura?
+--
+
+
+- Como você usa essas informações para fazer uma recomendação?
+--
+
+
+- As plantas daninhas são distribuídas uniformemente nas lavouras?
+
+
+&lt;img src="https://media.giphy.com/media/IfsxP5r7WmhP5P6seN/giphy.gif" width="500" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+
+&lt;img src="images/aerial_1.png" width="700" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+
+&lt;img src="images/aerial_2.png" width="400" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+
+Suponha que as células da tabela a seguir listem a densidade média de capim pé-de-galinha (plantas m&lt;sup&gt;-2&lt;/sup&gt;) para uma área de 5 ha (ou seja, 20 células cada representando 5 ha significa que o campo tem tamanho total de 100 ha)
+
+
+&lt;img src="images/grid.png" width="600" style="display: block; margin: auto;" /&gt;
+
+
+- A densidade média de pé-de-galinha em todo este campo é de 1,8 / 20 = 0,09 plantas m&lt;sup&gt;-2&lt;/sup&gt;.
+
+
+---
+
+
+Agora, suponha que tenhamos identificado os seguintes valores:
+
+
+- C = US $ 35 / acre (isso varia dependendo do seu programa de gerenciamento)
+
+- Y = 190 bu / acre (depende do clima, ambiente do solo e manejo)
+
+- P = 4,25 $ / bu (depende de muitas coisas, bastante variável)
+
+- I = perda de rendimento de 30% (varia de acordo com o clima, o ambiente do solo e o gerenciamento - aquelas 
+coisas que podem influenciar o desempenho e a concorrência da planta)
+
+- E&lt;sub&gt;f&lt;/sub&gt; = 95% (depende das condições ambientais, idade das plantas daninhas, etc. no momento em que o manejo é aplicado)
+
+- A = 60% (também variável)
+
+- T&lt;sub&gt;e&lt;/sub&gt; = C / YPIE&lt;sub&gt;f&lt;/sub&gt;
+
+
+
+---
+
+
+Se usássemos toda a densidade de capim pé-de-galinha da lavoura e esse limite econômico de densidade de capim pé-de-galinha para decidir se o manejo é garantido, o que faríamos?
+
+- Devemos pulverizar todo o campo? ou apenas os blocos que possuem densidades que excedem o limite?
+
+- T&lt;sub&gt;e&lt;/sub&gt; mudaria se o preço obtido para a safra diminuísse?
+
+
+&lt;img src="https://media.giphy.com/media/igtdauKhbfyHpf6N1W/giphy.gif" width="500" style="display: block; margin: auto;" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

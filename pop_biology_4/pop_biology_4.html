@@ -343,7 +343,7 @@ class: inverse, middle, center
 
 
 
-# O ciclo de vida de uma erva daninha anual
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -373,25 +373,173 @@ class: inverse, middle, center
 
 ---
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D - [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))] + I-E
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
 
 
-- E&lt;sub&gt;m&lt;/sub&gt; = fração de Nt que germina e emerge
+- &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de Nt que germina e emerge
 
 
-- S&lt;sub&gt;pl&lt;/sub&gt; = fração de plântulas que sobrevivem até a maturidade
+- &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) = número de sementes produzidas por planta
+- &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
+
+- &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
 
 
-- D = fração de sementes dispersas na área de interesse
+- &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; = fração de sementes dispersas na área de interesse
 
 
-- S&lt;sub&gt;bs&lt;/sub&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- &lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+
+---
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
+
+&lt;img src="images/seedbank.png" width="700" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+
+# Dependência de densidade
+
+
+&lt;img src="images/sb_03.png" width="700" style="display: block; margin: auto;" /&gt;
+
+---
+
+# N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt; N&lt;sub&gt;0&lt;/sub&gt;
+
+
+
+&lt;img src="images/exp_growth.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Logistic_Carrying_Capacity.svg" width="700" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+# Dependência de densidade
+
+
+- Quando aumentamos a população de plantio de milho, o que acontece com o tamanho da orelha em cada planta?
+
+- O que acontece com o rendimento?
+
+
+---
+
+# P = número de sementes produzidas por planta
+
+
+&lt;img src="images/seedsperplant.png" width="600" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+# Número total de sementes produzidas
+
+## P \* N&lt;sub&gt;m&lt;/sub&gt;
+
+&lt;img src="images/seed_prodution.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+---
+
+# Produção de sementes (sementes m&lt;sup&gt;-2&lt;/sup&gt;)
+
+.center[
+N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1 - E&lt;sub&gt;f&lt;/sub&gt;)
+]
+
+
+---
+
+
+
+# O ciclo de vida de uma planta daninha anual
+
+
+
+
+
+&lt;img src="images/sb_04.png" width="600" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+# S&lt;sub&gt;pl&lt;/sub&gt;
+
+## Fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+.pull-left[
+&lt;img src="images/spring_seedbank_01.png" width="600" style="display: block; margin: auto;" /&gt;
+]
+
+
+.pull-right[
+&lt;img src="images/spring_seedbank_02.png" width="600" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
+
+
+Onde (variáveis):
+
+
+- &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de Nt que germina e emerge
+
+
+- &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
+
+
+- &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
+
+- &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
+
+
+- &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; = fração de sementes dispersas na área de interesse
+
+
+- &lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+
+
+
+---
+
+# Revisão
+
+Qual é o valor de um modelo de dinâmica populacional de plantas daninhas?
+
+- Ajuda-nos a entender as plantas daninhas
+
+- Nos fornece uma estrutura na qual basear as decisões
+
+- Diz-nos o que não sabemos, para que possamos aprender mais
+
+
+
+
 
 
 

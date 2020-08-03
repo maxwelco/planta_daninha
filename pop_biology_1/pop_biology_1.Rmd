@@ -35,12 +35,12 @@ library(pagedown)
 - Suponha que um produtor acabou de arrendar mais 600 ha de terra irrigada na região de Assis, São Paulo. Ele planeja plantar essa área para uma rotação milho-soja transgênica (resistente ao glifosato). As plantas daninhas mais comuns nesses campos são capim amargoso, buva e botão-de-ouro. Em 5 anos, quais são os 3 resultados possíveis desse manejo? Liste os resultados e os motivos.
 
 
-- O que mais você gostaria de saber sobre o desse produtor rural?
-
-
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("https://images.unsplash.com/photo-1593637607350-146aae52207d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2709&q=80")
 ```
+
+- O que mais você gostaria de saber sobre o desse produtor rural?
+
 
 
 ---
