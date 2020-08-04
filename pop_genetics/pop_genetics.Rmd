@@ -29,6 +29,8 @@ output:
 
 ## Perguntas que esse tipo de geneticista faz incluem
 
+
+
 - O que é um gene?
 
 - Onde estão localizados os genes?
@@ -40,6 +42,10 @@ output:
 - Quantos genes determinam uma característica?
 
 - Como podemos manipular o genoma?
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/ZBQJXF4aS8u2owCAuC/giphy.gif")
+```
 
 ---
 
@@ -94,6 +100,17 @@ output:
 
 - As células possuem duas cópias homólogas de cada cromossomo
 
+.pull-left[
+```{r echo=FALSE, out.width=275, fig.align='center'}
+knitr::include_graphics("images/haploide.png")
+```
+]
+
+.pull-left[
+```{r echo=FALSE, out.width=275, fig.align='center'}
+knitr::include_graphics("images/diploide_2.png")
+```
+]
 
 
 
@@ -106,7 +123,9 @@ output:
 - Versões diferentes de um gene
 
 
-
+```{r echo=FALSE, out.width=275, fig.align='center'}
+knitr::include_graphics("images/diploide_4.png")
+```
 
 ---
 
@@ -116,7 +135,17 @@ output:
 
 - Localização específica de um gene em um cromossomo
 
+.pull-left[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/homologo.png")
+```
+]
 
+.pull-left[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/diploide_3.png")
+```
+]
 
 ---
 
@@ -125,6 +154,18 @@ output:
 - Um organismo diplóide terá dois alelos (A e a) em um único locus e existem apenas três genótipos possíveis: AA, Aa, aa
 
 
+.pull-left[
+```{r echo=FALSE, out.width=325, fig.align='center'}
+knitr::include_graphics("images/cruzamento.png")
+```
+]
+
+.pull-left[
+```{r echo=FALSE, out.width=325, fig.align='center'}
+knitr::include_graphics("images/locus.png")
+```
+]
+
 
 ---
 
@@ -132,9 +173,12 @@ output:
 # Terminologia
 
 - Alelos dominantes escondem a presença de um alelo recessivo. AA e Aa exibem a característica de 'A.'
-O controle genético de uma determinada característica é chamado de herança.
 
+- O controle genético de uma determinada característica é chamado de **herança**
 
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/cruzamento.png")
+```
 
 ---
 
@@ -151,6 +195,9 @@ O controle genético de uma determinada característica é chamado de herança.
     - Pressão arterial
 
 
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/quant.png")
+```
 
 ---
 
