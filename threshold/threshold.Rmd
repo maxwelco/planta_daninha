@@ -179,6 +179,10 @@ Onde:
 
 - Como você sabe quantas plantas daninhas existem em uma lavoura?
 --
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/IfsxP5r7WmhP5P6seN/giphy.gif")
+```
+--
 
 
 - Como você usa essas informações para fazer uma recomendação?
@@ -188,9 +192,7 @@ Onde:
 - As plantas daninhas são distribuídas uniformemente nas lavouras?
 
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://media.giphy.com/media/IfsxP5r7WmhP5P6seN/giphy.gif")
-```
+
 
 
 
@@ -250,12 +252,13 @@ coisas que podem influenciar o desempenho e a concorrência da planta)
 
 ---
 
+# Controle de plantas daninhas localizado
 
-Se usássemos toda a densidade de capim pé-de-galinha da lavoura e esse limite econômico de densidade de capim pé-de-galinha para decidir se o manejo é garantido, o que faríamos?
+- Se usássemos toda a densidade de capim pé-de-galinha da lavoura e esse nível de dano econômico da densidade de capim pé-de-galinha para decidir se devemos controlar a planta daninha, o que faríamos?
 
 - Devemos pulverizar todo o campo? ou apenas os blocos que possuem densidades que excedem o limite?
 
-- T<sub>e</sub> mudaria se o preço obtido para a safra diminuísse?
+- O T<sub>e</sub> mudaria se o preço obtido da cultura para a safra diminuísse?
 
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
