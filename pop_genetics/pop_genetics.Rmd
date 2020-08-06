@@ -21,7 +21,20 @@ output:
 - Genética - celular, organela, molecular
 
 - Genética de populações, genética evolutiva, genética quantitativa
+--
 
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/30pdYnh6VSw5mWD0Z0/giphy.gif")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/cAtpnbVZzQweW3vFlA/giphy.gif")
+```
+]
 
 ---
 
@@ -65,6 +78,9 @@ knitr::include_graphics("https://media.giphy.com/media/ZBQJXF4aS8u2owCAuC/giphy.
 
 - Como os genes fluem dentro de uma população?
 
+```{r echo=FALSE, out.width=275, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/T8ZP9P7efQ8cE/giphy.gif")
+```
 
 ---
 
@@ -75,6 +91,19 @@ knitr::include_graphics("https://media.giphy.com/media/ZBQJXF4aS8u2owCAuC/giphy.
 - **Genótipo** - descreve a composição genética de um indivíduo
 
 - **Fenótipo** - qualquer qualidade observada de um organismo resultante da interação genótipo x ambiente
+
+.pull-left[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/EZRqJh9C8aMJG/giphy.gif")
+```
+]
+
+.pull-left[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/qjZLh6kL66nCw/giphy.gif")
+```
+]
+
 
 
 ---
@@ -89,6 +118,12 @@ knitr::include_graphics("https://media.giphy.com/media/ZBQJXF4aS8u2owCAuC/giphy.
 - Dependente do ambiente
 
 - Só ocorre se a característica vantajosa for herdável
+
+
+
+```{r echo=FALSE, out.width=290, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/26DNjBssHWaUSC60U/giphy.gif")
+```
 
 
 ---
@@ -294,3 +329,9 @@ knitr::include_graphics("images/quant.png")
     - Perturbação humana / manejo, ou seja, cultivo
 
 
+---
+
+# Aptidão (Fitness)
+
+- O sucesso relativo com o qual um genótipo transmite seus genes para a próxima geração
+    - Tolerância a herbivoria, aplicações de herbicidas
