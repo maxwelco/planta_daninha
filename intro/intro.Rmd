@@ -172,7 +172,7 @@ knitr::include_graphics("https://media.giphy.com/media/Pk20jMIe44bHa/giphy.gif")
 
 ---
 
-# Calendário
+# Calendário (tentativa)
 
 - **11 agosto**: Aula inaugural - Introdução as plantas daninhas e plantas invasoras
 
@@ -429,9 +429,9 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 
 - Estimativa de Soltani et. al. nos EUA
 
-- Prejuíjo causado em culturas por plantas daninhas não manejadas
+- Prejuízo causado em culturas por plantas daninhas não manejadas
 
-| Cultura   | Graos       | Valor (US$) |
+| Cultura   | Grãos       | Valor (US$) |
 |-----------|-------------|-------------|
 | Beterraba | 22.4 mi ton |  1.25 bi    |
 | Feijao    | 941 mi kg   |  622 mi     |
@@ -631,7 +631,7 @@ knitr::include_graphics("https://bloximages.newyork1.vip.townnews.com/journalpat
 
 # Impacto direto no homem
 
-- Obstrucção de canais e rios
+- Obstrução de canais e rios
 
 - Plantas daninhas aquaticas 
 
