@@ -180,40 +180,40 @@ knitr::include_graphics("https://media.giphy.com/media/Pk20jMIe44bHa/giphy.gif")
 
 - **25 agosto**: Invasão biológica 
 
-- **31 agosto**: Biologia populacional - parte I
+- **1 setembro**: Biologia populacional - parte I
 
-- **1 setembro**: Biologia populacional - parte II
+- **8 setembro**: Biologia populacional - parte II
 
-- **8 setembro**: Biologia populacional - parte III
+- **15 setembro**: Biologia populacional - parte III
 
-- **15 setembro**: Biologia populacional - parte IV
+- **22 setembro**: Biologia populacional - parte IV
 
-- **22 setembro**: Competição entre plantas 
+- **29 setembro**: Competição entre plantas 
 
-- **29 setembro**: Nível de dano econômico
+- **6 outubro**: Nível de dano econômico
 
 
 ---
 
 # Calendário
 
-- **6 outubro**: Genética populacional
+- **13 outubro**: Genética populacional
 
-- **13 outubro**: Resistência de plantas daninhas
+- **20 outubro**: Resistência de plantas daninhas
 
-- **20 outubro**: Manejo Integrado de plantas daninhas
+- **27 outubro**: Manejo Integrado de plantas daninhas
 
-- **27 outubro**: Controle biológico
+- **3 novembro**: Controle biológico
 
-- **3 novembro**: Controle químico - parte I
+- **10 novembro**: Controle químico - parte I
 
-- **10 novembro**: Controle químico - parte II
+- **17 novembro**: Controle químico - parte II
 
-- **17 novembro**: Mecanismo de ação dos herbicidas
+- **24 novembro**: Mecanismo de ação dos herbicidas
 
-- **24 novembro**: Herbicidas no solo
+- **1 dezembro**: Herbicidas no solo
 
-- **1 dezembro**: Metabolismo de herbicidas em plantas
+- **8 dezembro**: Metabolismo de herbicidas em plantas
 
 
 ---
