@@ -172,48 +172,48 @@ knitr::include_graphics("https://media.giphy.com/media/Pk20jMIe44bHa/giphy.gif")
 
 ---
 
-# Calendário (tentativa)
+# Calendário (atualizado)
 
 - **11 agosto**: Aula inaugural - Introdução as plantas daninhas e plantas invasoras
 
-- **18 agosto**: Ecologia
+- **18 agosto**: Ecologia e Invasão biológica 
 
-- **25 agosto**: Invasão biológica 
+- **25 agosto**: Biologia populacional - parte I e II
 
-- **1 setembro**: Biologia populacional - parte I
+- **1 setembro**: Biologia populacional - parte III e IV
 
-- **8 setembro**: Biologia populacional - parte II
+- **8 setembro**: Exercícios - atividade avalitiva
 
-- **15 setembro**: Biologia populacional - parte III
+- **15 setembro**: Competição entre plantas e Nível de dano econômico
 
-- **22 setembro**: Biologia populacional - parte IV
+- **22 setembro**: Exercícios - atividade avalitiva 
 
-- **29 setembro**: Competição entre plantas 
+- **29 setembro**: Semana de provas
 
-- **6 outubro**: Nível de dano econômico
+- **6 outubro**: Genética populacional e Resistência de plantas daninhas
 
 
 ---
 
 # Calendário
 
-- **13 outubro**: Genética populacional
+- **13 outubro**: Manejo Integrado de plantas daninhas
 
-- **20 outubro**: Resistência de plantas daninhas
+- **20 outubro**: Controle biológico
 
-- **27 outubro**: Manejo Integrado de plantas daninhas
+- **27 outubro**: Controle químico - parte I e II
 
-- **3 novembro**: Controle biológico
+- **3 novembro**: Mecanismo de ação dos herbicidas
 
-- **10 novembro**: Controle químico - parte I
+- **10 novembro**: Herbicidas no solo
 
-- **17 novembro**: Controle químico - parte II
+- **17 novembro**: Metabolismo de herbicidas em plantas
 
-- **24 novembro**: Mecanismo de ação dos herbicidas
+- **24 novembro**: Exercícios - atividade avalitiva
 
-- **1 dezembro**: Herbicidas no solo
+- **1 dezembro**: Semana de provas
 
-- **8 dezembro**: Metabolismo de herbicidas em plantas
+
 
 
 ---
@@ -550,7 +550,7 @@ knitr::include_graphics("images/wssa.png")
 - **1969**: 16 mi ton grãos forom recebidos com 487 k ton (~33 vagões) com aveia selvagem (*Avena fatua*) - prejuízo de US`$` 2 mi.
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://www.bakingbusiness.com/-/media/D48D6B2DCB49466EACDB4E1BB73938DD.ashx")
+knitr::include_graphics("https://img.apmcdn.org/d7968fb5079ed38e4420eb4e0c92cab20bfea020/uncropped/85331e-20140326-grain-elevator.jpg")
 ```
 
 
@@ -646,7 +646,7 @@ knitr::include_graphics("http://www.odiariodemogi.net.br/wp-content/uploads/2018
 
 # Impacto em animais
 
-- **Veneno**: cefezinho (*Palicourea marcgravi*)
+- **Veneno**: cafezinho (*Palicourea marcgravi*)
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://rehagro.com.br/blog/wp-content/uploads/2018/06/plantas-toxicas-de-importancia-pecuaria4.jpg")

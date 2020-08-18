@@ -201,7 +201,7 @@ N<sub>t</sub> = tamanho da população do banco de sementes no momento t
 Onde (variáveis):
 
 
-- E<sub>m</sub> = fração de Nt que germina e emerge
+- E<sub>m</sub> = fração de N<sub>t</sub> que germina e emerge
 
 
 - S<sub>pl</sub> = fração de plântulas que sobrevivem até a maturidade
@@ -217,9 +217,7 @@ Onde (variáveis):
 
 
 
----
-class: inverse, middle, center
-# A Subsection slide
+
 ---
 
 # Quantificando a emergência
