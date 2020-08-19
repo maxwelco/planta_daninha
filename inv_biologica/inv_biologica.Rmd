@@ -42,11 +42,15 @@ library(pagedown)
 - Quais fatores contribuem para cada um?
 
 
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/U3dIoNBOyfTkA/giphy.gif")
+```
+
 ---
 
 # Terminologia
 
-- **Exótica** (introduzidas): plantas cuja presença em uma área é resultado de transporte mediado por humanos
+- **Exótica (introduzidas)**: plantas cuja presença em uma área é resultado de transporte mediado por humanos
 
 - **Naturalizadas**: plantas exóticas que formam populações que se substituem há pelo menos 10 anos
 
@@ -134,11 +138,12 @@ knitr::include_graphics("images/processo_invasao.jpg")
 
 **Hipótese de naturalização de Darwin** - a colonização é menos provável quando a espécie colonizadora está relacionada a membros da comunidade invadida porque a proximidade evolutiva intensifica a competição entre as espécies
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/darwins-conundrum.png")
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3ohhwu9r3BRtEKm5Fe/giphy.gif")
 ```
 
 
+> “Como as espécies do mesmo gênero geralmente têm, embora de forma alguma invariavelmente, muitas semelhanças em hábitos e constituição, e sempre em estrutura, a luta será geralmente mais severa entre elas, se entrarem em competição uma com a outra, do que entre as espécies de gêneros distintos”
 
 ---
 

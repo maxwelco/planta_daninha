@@ -291,6 +291,7 @@ knitr::include_graphics("images/amazon.jpg")
 knitr::include_graphics("images/agroeco.jpg")
 ```
 ]
+--
 
 
 .pull-right[
