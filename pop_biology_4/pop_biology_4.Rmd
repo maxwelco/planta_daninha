@@ -33,9 +33,9 @@ library(pagedown)
 
 ## Lembre-se de que derivamos a equação de crescimento exponencial
 
-N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>, 
+N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub>, 
 
-que, se N<sub>0</sub> = 2 e R = 5, obtemos:
+que, se N<sub>o</sub> = 2 e R = 5, obtemos:
 
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
@@ -46,7 +46,9 @@ knitr::include_graphics("images/exp_growth.png")
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -63,7 +65,7 @@ knitr::include_graphics("images/seedbank.png")
 
 
 
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
+> N<sub>t+1</sub> = N<sub>t</sub> + Emergências - Mortes + Imigrantes - Emigrantes
 
 
 - N<sub>t+1</sub> = tamanho da população do banco de sementes (número de sementes) no tempo t + 1
@@ -74,10 +76,10 @@ knitr::include_graphics("images/seedbank.png")
 N<sub>t</sub> = **Armazenamento**
 
 
-Nascimentos + imigrantes = **depósitos**
+Emergências + Imigrantes = **Depósitos**
 
 
-Mortes (e outras perdas) + Emigrantes = **retiradas**
+Mortes (e outras perdas) + Emigrantes = **Retiradas**
 
 
 
@@ -87,10 +89,10 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 
 
 
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes 
+> **N<sub>t+1</sub> = N<sub>t</sub> + Emergências - Mortes + Imigrantes - Emigrantes**
 
 
-- **Nascimentos** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
+- **Emergências** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
 
 - **Imigração** = acréscimos à população - que surgiram de outra população
 
@@ -102,7 +104,9 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -117,26 +121,37 @@ knitr::include_graphics("images/seedbank.png")
 # A equação do banco de sementes
 
 
+
 N<sub>t</sub> = tamanho da população do banco de sementes no momento t
 
-> Nascimentos = [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D
+> **Emergências** = [(<font color='red'>N<sub>t</sub> \* E<sub>m</sub></font> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D
 
-N<sub>pl</sub> = N<sub>t</sub> \* E<sub>m</sub>
+<font color='red'>N<sub>pl</sub> = N<sub>t</sub> * E<sub>m</sub></font>
 
-N<sub>m</sub> = N<sub>pl</sub> \* S<sub>pl</sub> = N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>
+N<sub>m</sub> = <font color='red'>N<sub>pl</sub></font> \* S<sub>pl</sub> = <font color='red'>N<sub>t</sub> \* E<sub>m</sub></font> \* S<sub>pl</sub>
 
-Sementes m<sup>-2</sup> = plantas m<sup>-2</sup> \* sementes planta<sup>-1</sup> = N<sub>m</sub> \* P \* (1-E<sub>f</sub>)
+> **Sementes m<sup>-2</sup>** = plantas m<sup>-2</sup> \* sementes planta<sup>-1</sup> = <font color='blue'>N<sub>m</sub> \* P \* (1-E<sub>f</sub>)</font>
 
-Depósitos = N<sub>m</sub> \* P \* (1-E<sub>f</sub>) \* D = N<sub>t</sub> \* E<sub>m</sub> · S<sub>pl</sub> \* P \* (1-E<sub>f</sub>) \* D
+<br>
+
+> **Depósitos** = <font color='blue'>N<sub>m</sub> \* P \* (1-E<sub>f</sub>)</font> \* D = <font color='purple'>N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub> \* P \* (1-E<sub>f</sub>) \* D</font>
+
+<br>
 
 .footnote[
-[1] E<sub>f</sub> = eficiência de controle
+[1] N<sub>pl</sub> = número de plântulas
+
+[2] N<sub>m</sub> = número de plantas maduras
+
+[3] E<sub>f</sub> = eficiência de controle
 ]
 
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -152,21 +167,22 @@ knitr::include_graphics("images/seedbank.png")
 # A equação do banco de sementes 
 
 
-> **Mortes/Perdas** = [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]
+> **Mortes/Perdas** = [(<font color='red'>N<sub>t</sub> \* E<sub>m</sub></font>) + ((<font color='blue'>N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub></font>) \* (<font color='green'>1-S<sub>bs</sub></font>))]
 
-N<sub>t</sub> \* E<sub>m</sub> = germinação e emergência
+<font color='red'>N<sub>t</sub> \* E<sub>m</sub></font> = germinação e emergência
 
-N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub> = sementes que permanecem no banco de sementes após a emergência
+<font color='blue'>N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub></font> = sementes que permanecem no banco de sementes após a emergência
 
-N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub> \* (1-S<sub>bs</sub>) = sementes perdidas por predação, decomposição, etc. de um ano para a próxima
-
+<font color='blue'>N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub></font> \* (<font color='green'>1-S<sub>bs</sub></font>) = sementes perdidas por predação, decomposição, etc. de um ano para o próximo
 
 
 
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -186,34 +202,40 @@ knitr::include_graphics("images/seedbank.png")
 
 N<sub>t</sub> = tamanho da população do banco de sementes no momento t
 
-**Nascimentos** = [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D
+**Emergências** = <font color='green'>[(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D</font>
 
-**Mortes/perdas** = [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]
+**Mortes/perdas** = <font color='red'>[(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]</font>
  
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D - [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))] + I-E
+**N<sub>t+1</sub>**  = N<sub>t</sub> + <font color='green'>[(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D</font> - <font color='red'>[(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))]</font> + I-E
+
+<br>
+
+> N<sub>t+1</sub> = N<sub>t</sub> + Emergências - Mortes + Imigrantes - Emigrantes
 
 
 ---
 
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* E<sub>m</sub> \* S<sub>pl</sub>) \* P \* (1-E<sub>f</sub>)] \* D - [(N<sub>t</sub> \* E<sub>m</sub>) + ((N<sub>t</sub>-N<sub>t</sub> \* E<sub>m</sub>) \* (1-S<sub>bs</sub>))] + I-E
+# Taxa variáveis
+
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='purple'>P \* (1-E<sub>f</sub>)</font>] \* <font color='orange'>D</font> - [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) \* (1-<font color='red'>S<sub>bs</sub></font>))] + I-E
 
 
 Onde (variáveis):
 
 
-- E<sub>m</sub> = fração de N<sub>t</sub> que germina e emerge
+- <font color='green'>E<sub>m</sub></font> = fração de N<sub>t</sub> que germina e emerge
 
 
-- S<sub>pl</sub> = fração de plântulas que sobrevivem até a maturidade
+- <font color='blue'>S<sub>pl</sub></font> = fração de plântulas que sobrevivem até a maturidade
 
 
-- P \* (1-E<sub>f</sub>) = número de sementes produzidas por planta
+- <font color='purple'>P \* (1-E<sub>f</sub>)</font> = número de sementes produzidas por planta
 
 
-- D = fração de sementes dispersas na área de interesse
+- <font color='orange'>D</font> = fração de sementes dispersas na área de interesse
 
 
-- S<sub>bs</sub> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- <font color='red'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 
@@ -251,7 +273,7 @@ knitr::include_graphics("images/seedling_linear_2.png")
 
 # E<sub>m</sub> 
 
-## A fração de N<sub>t</sub> que emerge
+## A fração de N<sub>t</sub> que germina e emerge
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/seedling_linear_3.png")
@@ -299,7 +321,7 @@ knitr::include_graphics("images/pop_density.png")
 ## A fração de plântulas que sobrevivem até a maturidade
 
 
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/surviving_seedlings.png")
 ```
 
@@ -309,18 +331,24 @@ knitr::include_graphics("images/surviving_seedlings.png")
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/tillage_emergence.png")
+knitr::include_graphics("images/table_title.png")
 ```
 
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/table_emergence.png")
+```
 
 ---
 
 
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/emergence_waterhemp.png")
+knitr::include_graphics("images/wat_title.png")
 ```
 
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/wat_emergence.png")
+```
 
 ---
 
@@ -334,7 +362,7 @@ knitr::include_graphics("images/sb_03.png")
 
 ---
 
-# N<sub>t</sub> = R<sup>t</sup>N<sub>0</sub>
+# N<sub>t</sub> = R<sup>t</sup>N<sub>o</sub>
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://kivu.com/wp-content/uploads/2015/05/human-pop-growth.jpg")
@@ -360,8 +388,12 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/f/ff/Log
 
 - Quando aumentamos a população de plantio de milho, o que acontece com o tamanho da espiga em cada planta?
 
-- O que acontece com o rendimento?
+- O que acontece com a produtividade?
 
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/wrW1xNeCns7S0/giphy.gif")
+```
 
 
 ---
@@ -423,7 +455,9 @@ knitr::include_graphics("images/spring_seedbank_02.png")
 
 ---
 
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='green'>P</sub></font> \* (1-<font color='green'>E<sub>f</sub></font>)] \* <font color='orange'>D</sub></font> - [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) \* (1-<font color='purple'>S<sub>bs</sub></font>))] + I-E
+# Taxa variáveis
+
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='brown'>P</sub></font> \* (1-<font color='green'>E<sub>f</sub></font>)] \* <font color='orange'>D</sub></font> - [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) \* (1-<font color='purple'>S<sub>bs</sub></font>))] + I-E
 
 
 Onde (variáveis):
@@ -435,7 +469,7 @@ Onde (variáveis):
 - <font color='blue'>S<sub>pl</sub></font> = fração de plântulas que sobrevivem até a maturidade
 
 
-- <font color='green'>P</sub></font> = número de sementes produzidas por planta
+- <font color='brown'>P</sub></font> = número de sementes produzidas por planta
 
 - <font color='green'>E<sub>f</sub></font> = eficácia (proporção de plantas mortas pelo manejo)
 
@@ -470,7 +504,7 @@ knitr::include_graphics("images/sb_03.png")
 
 ---
 
-# N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>
+# N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub>
 
 
 
@@ -518,15 +552,6 @@ knitr::include_graphics("images/seedsperplant.png")
 knitr::include_graphics("images/seed_prodution.png")
 ```
 
----
-
----
-
-# Produção de sementes (sementes m<sup>-2</sup>)
-
-.center[
-N<sub>m</sub> \* P \* (1 - E<sub>f</sub>)
-]
 
 
 ---
@@ -569,27 +594,27 @@ knitr::include_graphics("images/spring_seedbank_02.png")
 
 ---
 
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='green'>P</sub></font> \* (1-<font color='green'>E<sub>f</sub></font>)] \* <font color='orange'>D</sub></font> - [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) \* (1-<font color='purple'>S<sub>bs</sub></font>))] + I-E
+# Taxa variáveis
+
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='purple'>P \* (1-E<sub>f</sub>)</font>] \* <font color='orange'>D</font> - [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) \* (1-<font color='red'>S<sub>bs</sub></font>))] + I-E
 
 
 Onde (variáveis):
 
 
-- <font color='red'>E<sub>m</sub></font> = fração de Nt que germina e emerge
+- <font color='green'>E<sub>m</sub></font> = fração de N<sub>t</sub> que germina e emerge
 
 
 - <font color='blue'>S<sub>pl</sub></font> = fração de plântulas que sobrevivem até a maturidade
 
 
-- <font color='green'>P</sub></font> = número de sementes produzidas por planta
-
-- <font color='green'>E<sub>f</sub></font> = eficácia (proporção de plantas mortas pelo manejo)
+- <font color='purple'>P \* (1-E<sub>f</sub>)</font> = número de sementes produzidas por planta
 
 
-- <font color='orange'>D</sub></font> = fração de sementes dispersas na área de interesse
+- <font color='orange'>D</font> = fração de sementes dispersas na área de interesse
 
 
-- <font color='purple'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- <font color='red'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 

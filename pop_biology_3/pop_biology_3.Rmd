@@ -1,6 +1,6 @@
 ---
 title: "Biologia Populacional"
-subtitle: "Parte III"
+subtitle: "Germinação e emergência"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
@@ -56,7 +56,7 @@ library(pagedown)
 
 - Inibidor de germinação está presente
 
-- Sementeira dura
+- Sementeira dura (tegumento impermeável)
 
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
@@ -159,12 +159,9 @@ knitr::include_graphics("images/relation.png")
 
 
 - **Físico** - A restrição física de acesso à água ou gás
-    - Semeadura dura
+    - Semente dura
     - Más condições ambientais
---
-
-
-- Desenvolvimento incompleto do embrião
+    - Desenvolvimento incompleto do embrião
 --
 
 
@@ -180,11 +177,13 @@ knitr::include_graphics("images/relation.png")
 **Recrutamento** é o estabelecimento de uma planta adulta a partir de uma semente ou por imigração
 
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/txCo7WXCwZpmM/giphy.gif")
+```
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -215,25 +214,18 @@ knitr::include_graphics("https://media.giphy.com/media/mDBBU8K7Np2UQs9Dqy/giphy.
 
 ---
 
+class: inverse
+
 # Germinação e Emergência
 
 
-.pull-left[
-
-
-
-
-]
-
-
-.pull-right[
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/seed_germination_1.png")
+knitr::include_graphics("https://www.news-medical.net/image.axd?picture=2018%2F8%2Fshutterstock_438785668_-_seed_germination.jpg")
 ``` 
 
-]
+
 
 
 
@@ -244,7 +236,6 @@ knitr::include_graphics("images/seed_germination_1.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/seed_germination_3.png")
 ``` 
-
 
 
 
@@ -265,9 +256,9 @@ knitr::include_graphics("images/seed_germination_3.png")
     
 - Profundidade da semente
     
-- Quantidade de recursos disponíveis para a muda (endosperma)
+- Quantidade de recursos disponíveis para a plântula (endosperma)
     
-- Fatores que contribuem para a mortalidade.
+- Fatores que contribuem para a mortalidade
 ]
 
 
@@ -471,6 +462,10 @@ knitr::include_graphics("images/seedbank.png")
 
 
 
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://cropwatch.unl.edu/2017-CW-News/2017-images/weeds/common-waterhemp-true-leaves-f4-s.jpg")
+```
+
 ---
 
 # Sobrevivência de plântulas
@@ -521,11 +516,11 @@ knitr::include_graphics("images/seedbank.png")
 # Produção de Sementes
 
 
-- Sementes plant<sup>-1</sup>
+- Sementes planta<sup>-1</sup>
 
 
 
-- Sementes m<sup>-2</sup> = (Sementes plant<sup>-1</sup>) * (Plantas<sup>-1</sup>)
+- Sementes m<sup>-2</sup> = (Sementes planta<sup>-1</sup>) * (Plantas<sup>-1</sup>)
 
 
 
@@ -536,7 +531,7 @@ knitr::include_graphics("images/seedbank.png")
 
 .pull-left[
 
-- Sementes plant<sup>-1</sup>
+- Sementes planta<sup>-1</sup>
 
 - Quais fatores de manejo e do ambiente influenciam a produção de sementes?
 
@@ -638,7 +633,9 @@ knitr::include_graphics("images/seedbank.png")
 
 
 
-
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://eorganic.org/sites/eorganic.info/files/u257/Node5134-rhizomes.jpg")
+```
 
 
 ---
@@ -652,7 +649,7 @@ knitr::include_graphics("images/seedbank.png")
 
 - Animais
 
-- Deiscência violenta
+- Deiscência
 
 - Sementes contaminadas
 
@@ -674,10 +671,11 @@ knitr::include_graphics("images/vegetativo.png")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://lh3.googleusercontent.com/proxy/uVsq6aUBVJuljuw61BtszGp7ejqO-Jo-ZfvL-_ONVMNrcL2ZOsazR0m2bk3PASpeMMIQtoaNLsTkaBIAwqOtKHhp5vD-hm21do0sd18g1t1Z4c-g9ylw9KB0c1SDmrhrQZ4ySvI")
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/b/b1/Euphorbia_rhizophora2_ies.jpg")
 ```
-```{r echo=FALSE, out.width=500, fig.align='center'}
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/rizoma.png")
 ```
 ]
@@ -717,11 +715,8 @@ knitr::include_graphics("http://www.roundupreadyplus.com.br/2018/wp-content/uplo
 
 
 .pull-right[
-```{r echo=FALSE, out.width=400, fig.align='center'}
-knitr::include_graphics("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlH6G3Hir9yipJ_9pHmOuk037hIAbvUTgsTg&usqp=CAU")
-```
 
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://www.grupocultivar.com.br/ativemanager/uploads/galeria/ace93-capim-amargoso-3.jpg")
 ```
 ]
@@ -743,14 +738,16 @@ knitr::include_graphics("https://media.buzzle.com/media/images-en/illustrations/
 # Tiririca  (*Cyperus spp.*) - tubérculos
 
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/tiririca_1.png")
 ```
+
+> Os **tubérculos** são estruturas alargadas em algumas espécies de plantas usadas como órgãos de armazenamento de nutrientes. Eles são usados para a perenização da planta (sobrevivência no inverno ou meses secos), para fornecer energia e nutrientes para o crescimento durante a próxima estação de crescimento e como meio de reprodução assexuada
 
 
 ---
 
-# Trevo (*Oxalis spp*) 
+# Trevo (*Oxalis spp*) - bulbos
 
 
 
@@ -762,9 +759,12 @@ knitr::include_graphics("images/azedinha_2.png")
 
 # Trevo (*Oxalis spp*) - bulbos
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/azedinha_1.png")
 ```
+
+
+> O **bulbo** é estruturalmente um caule curto com folhas carnudas ou bases de folhas que funcionam como órgãos de armazenamento de alimentos durante a dormência
 
 ---
 
@@ -772,11 +772,11 @@ knitr::include_graphics("images/azedinha_1.png")
 
 - Morango
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://image.shutterstock.com/image-photo/stolons-strawberry-on-black-background-260nw-1493815742.jpg")
 ```
 
-
+> Os **estolões** são caules que crescem na superfície do solo ou logo abaixo do solo, formando raízes adventícias nos nós e novas plantas a partir dos brotos.
 
 ---
 
@@ -804,7 +804,7 @@ knitr::include_graphics("https://www.minnesotawildflowers.info/udata/r9ndp23q/pd
 
 
 
-
+> Um **turião** (do latim turio significa "broto") é um tipo de broto que é capaz de crescer e se tornar uma planta completa. Um turião pode ser um broto subterrâneo.
 
 
 
@@ -813,9 +813,9 @@ knitr::include_graphics("https://www.minnesotawildflowers.info/udata/r9ndp23q/pd
 
 Lembre-se de que derivamos a equação de crescimento exponencial:
 
-N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub>, 
+N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub>, 
 
-que, se N<sub>0</sub> = 2 e R = 5, obtemos:
+que, se N<sub>o</sub> = 2 e R = 5, obtemos:
 
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
@@ -841,12 +841,12 @@ knitr::include_graphics("images/seedbank.png")
 
 
 
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
+> N<sub>t+1</sub> = N<sub>t</sub> + Emergências - Mortes + Imigrantes - Emigrantes
 
 N<sub>t</sub> = Armazenamento
 
 
-Nascimentos + imigrantes = depósitos
+Emergências + Imigrantes = depósitos
 
 
 Mortes (e outras perdas) + Emigrantes = retiradas
@@ -871,7 +871,7 @@ Mortes (e outras perdas) + Emigrantes = retiradas
 
 - **Imigração** = acréscimos à população - que surgiram de outra população
 
-- **Óbitos** = perdas da população devido a óbito ou predação
+- **Mortes** = perdas da população devido a óbito ou predação
 
 - **Emigração** = perdas da população resultantes da mobilidade
 

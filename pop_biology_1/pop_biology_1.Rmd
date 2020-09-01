@@ -1,6 +1,6 @@
 ---
 title: "Biologia populacional"
-subtitle: "Parte I"
+subtitle: "Ecologia populacional"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
@@ -219,10 +219,10 @@ knitr::include_graphics("images/quant_model.png")
 
 # Modelos esquemáticos
 
-- Variáveis de estado são mensuráveis
+- **Variáveis de estado** são mensuráveis
 
 
-- As variáveis de taxa representam relacionamentos entre variáveis de estado e podem ser representadas usando equações.
+- As **variáveis de taxa** representam relacionamentos entre variáveis de estado e podem ser representadas usando equações.
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
@@ -242,7 +242,7 @@ Fornece uma estrutura quantitativa que permita uma maior compreensão do funcion
 
 ##Modelos mecanísticos 
 
-- São baseados no entendimento básico dos relacionamentos entre muitas variáveis de estado. Esse entendimento pode ser teórico ou empírico. Esses modelos nunca são verdadeiramente mecanicistas. Eles são comumente construídos usando equações de diferença (a integração é realizada iterativamente).
+- São baseados no entendimento básico dos relacionamentos entre muitas **variáveis de estado**. Esse entendimento pode ser teórico ou empírico. Esses modelos nunca são verdadeiramente mecanicistas. Eles são comumente construídos usando equações de diferença (a integração é realizada iterativamente).
 
 ---
 
@@ -267,7 +267,7 @@ knitr::include_graphics("https://media.giphy.com/media/xT1Ra5h24Eliux3UVq/giphy.
 
 ## Assumindo que: 
 
-- N<sub>0</sub> = tamanho inicial da população = 1 planta m<sup>-2</sup>
+- N<sub>o</sub> = tamanho inicial da população = 1 planta m<sup>-2</sup>
 
 - R = produção constante de sementes = planta de 100 sementes<sup>-1</sup>
 
@@ -275,7 +275,7 @@ knitr::include_graphics("https://media.giphy.com/media/xT1Ra5h24Eliux3UVq/giphy.
 
 .center[
 
-N<sub>1</sub> = R * N<sub>0</sub> = ?? unidade? 
+N<sub>1</sub> = R * N<sub>o</sub> = ?? unidade? 
 
 ]
 
@@ -292,11 +292,11 @@ N<sub>1</sub> = R * N<sub>0</sub> = ?? unidade?
 - Todas as sementes produzem plantas
 
 .center[
-N<sub>t+1</sub> = RN<sub>t</sub> ou N<sub>1</sub> = RN<sub>0</sub>
+N<sub>t+1</sub> = RN<sub>t</sub> ou N<sub>1</sub> = RN<sub>o</sub>
 
-N<sub>2</sub> = RN<sub>1</sub> = R(RN<sub>0</sub>) = R<sup>2</sup> N<sub>0</sub>
+N<sub>2</sub> = RN<sub>1</sub> = R(RN<sub>o</sub>) = R<sup>2</sup> N<sub>o</sub>
 
-N<sub>3</sub> = RN<sub>2</sub> = R(R<sup>2</sup>No) = R<sup>3</sup>N<sub>0</sub>
+N<sub>3</sub> = RN<sub>2</sub> = R(R<sup>2</sup>No) = R<sup>3</sup>N<sub>o</sub>
 ]
 
 
@@ -304,7 +304,7 @@ N<sub>3</sub> = RN<sub>2</sub> = R(R<sup>2</sup>No) = R<sup>3</sup>N<sub>0</sub>
 
 
 .center[
-<mark>N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub></mark>
+<mark>N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub></mark>
 ]
 
 
@@ -322,10 +322,10 @@ N<sub>3</sub> = RN<sub>2</sub> = R(R<sup>2</sup>No) = R<sup>3</sup>N<sub>0</sub>
 - Todas as sementes produzem plantas
 
 .center[
-<mark>N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub></mark>
+<mark>N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub></mark>
 ]
 
-Portanto, se tivermos oito plantas este ano (N<sub>0</sub> = 8 plantas m<sup>-2</sup>) e cada uma produzir 10 sementes (R = 10 sementes planta<sup>-1</sup>), quantas plantas haverá em 9 anos?
+Portanto, se tivermos oito plantas este ano (N<sub>o</sub> = 8 plantas m<sup>-2</sup>) e cada uma produzir 10 sementes (R = 10 sementes planta<sup>-1</sup>), quantas plantas haverá em 9 anos?
 
 
 ---
@@ -376,7 +376,7 @@ knitr::include_graphics("https://media.giphy.com/media/4How4vb1GsLTi/giphy.gif")
 
 # Suposições ou premissas são erradas
 
-Como podemos modificar <mark>N<sub>t</sub> = R<sup>t</sup> N<sub>0</sub></mark>  para corrigir essas suposições erradas?
+Como podemos modificar <mark>N<sub>t</sub> = R<sup>t</sup> N<sub>o</sub></mark>  para corrigir essas suposições erradas?
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/26gR0YFZxWbnUPtMA/giphy.gif")
@@ -402,7 +402,7 @@ knitr::include_graphics("images/seedbank.png")
 
 
 ```{r echo=FALSE, out.width=400, fig.align='center', fig.pos= "middle"}
-knitr::include_graphics("https://media.giphy.com/media/13qctMBrrgbwJi/giphy.gif")
+knitr::include_graphics("https://media.giphy.com/media/l1Lc1Kn9hImgpx5Re/giphy.gif")
 ```
 
 .center[

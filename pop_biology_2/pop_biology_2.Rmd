@@ -1,6 +1,6 @@
 ---
 title: "Biologia populacional"
-subtitle: "Parte II"
+subtitle: "Banco de sementes do solo"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"
@@ -32,7 +32,7 @@ library(pagedown)
 
 # Objetivos
 
-- Estimar, qualitativa e quantitativamente, o ciclo de vida de plantas invasoras
+- Estimar, qualitativa e quantitativamente, o ciclo de vida de plantas daninhas
 
 - Explicar os processos que controlam o destino das sementes no banco de sementes
 
@@ -59,22 +59,22 @@ knitr::include_graphics("images/seedbank.png")
 
 ## Depósitos, retiradas e armazenamento em bancos de sementes:
 
-- Os depósitos incluem chuva de sementes da produção, dispersão e imigração de sementes
+- Os **depósitos** incluem chuva de sementes da produção, dispersão e imigração de sementes
 --
 
 
-- As retiradas ocorrem por germinação, senescência, morte e predação
+- As **retiradas** ocorrem por germinação, senescência, morte e predação
 --
 
 
-- O armazenamento resulta da distribuição vertical de sementes dormentes viáveis através do perfil do solo
+- O **armazenamento** resulta da distribuição vertical de sementes dormentes viáveis através do perfil do solo
 
 
 ---
 
 # O banco de sementes de plantas daninhas
 
-## Destino das sementes na superfície do solo:
+## Destino das sementes na superfície do solo
 
 - Morte (declínio ou predação)
 
@@ -82,7 +82,7 @@ knitr::include_graphics("images/seedbank.png")
 
 - Entrada na camada de arável
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/d83U1vYHFiczd83cjZ/giphy.gif")
 ``` 
 
@@ -148,9 +148,9 @@ knitr::include_graphics("images/nitrogen.png")
 --
 
 
-- Entrada na camada de arado -
+- Entrada na camada de arável -
     - características especiais da espécie permitem que ela penetre na superfície do solo
-    - rachaduras no solo, enterro por minhocas, insetos, roedores
+    - rachaduras no solo, canais de minhocas, insetos, roedores
     - qualquer forma de preparo do solo
 
 ---
@@ -186,6 +186,7 @@ knitr::include_graphics("https://pbs.twimg.com/media/Cn1Jo_pUkAEf56T?format=jpg&
 
 ---
 
+class: inverse
 
 # O banco de sementes de plantas daninhas
 
@@ -196,6 +197,10 @@ knitr::include_graphics("https://pbs.twimg.com/media/Cn1Jo_pUkAEf56T?format=jpg&
 
 - Efeitos do preparo do solo na na germinação de sementes
 
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/3ohjUXuBzExvw0jIUo/giphy.gif")
+``` 
 
 
 ---
@@ -221,20 +226,31 @@ knitr::include_graphics("images/deep_2.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/arados.png")
 ``` 
+moldboard = arado de aiveca
 
+chisel = escarificador
 
 
 ---
 
 # Sementes na camada arável
 
-## Influência do preparo do solo na distribuição de sementes no perfil do sol
+## Influência do preparo na distribuição de sementes no perfil do solo
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/seed_wi.png")
 ``` 
 
+---
+
+## Influência do preparo na distribuição de sementes no perfil do solo
+
+- **Exemplo clássico:** buva em sistema de plantio direto
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://growiwm.org/wp-content/uploads/2020/03/horseweed-plants.png")
+``` 
 
 ---
 
@@ -273,7 +289,7 @@ Efeitos do preparo do solo na germinação:
 
 ## Efeitos do preparo do solo na germinação de sementes
 
-solos suaves (macios) aquecem mais rapidamente
+- Solos suaves (macios) aquecem mais rapidamente
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
@@ -351,7 +367,7 @@ knitr::include_graphics("https://besjournals.onlinelibrary.wiley.com/cms/asset/f
 
 - Muitas espécies (particularmente espécies de folha larga). Podem permanecer viáveis no banco de sementes por > 20 anos
 
-- Foram descobertas sementes viáveis de cordeiros e esperguta (*Spergula arvensis*; Caryophyllaceae), datadas de 1700 anos
+- Foram descobertas sementes viáveis de ançarinha-branca (*Chenopodium album*) e esperguta (*Spergula arvensis*; Caryophyllaceae), datadas de 1700 anos
 
 
 .pull-left[
@@ -391,7 +407,7 @@ knitr::include_graphics("https://plants.usda.gov/gallery/standard/spar_002_shp.j
 # Medindo o banco de sementes no solo
 
 
-Se um produtor contrata você para determinar quantas ervas daninhas de quais espécies existiam em uma lavoura, como você faria isso?
+Se um produtor contrata você para determinar quantas plantas daninhas de quais espécies existiam em uma lavoura, como você faria isso?
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif")

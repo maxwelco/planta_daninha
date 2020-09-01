@@ -27,9 +27,9 @@ class: center, middle, inverse, title-slide
 
 ## Lembre-se de que derivamos a equação de crescimento exponencial
 
-N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt; N&lt;sub&gt;0&lt;/sub&gt;, 
+N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt; N&lt;sub&gt;o&lt;/sub&gt;, 
 
-que, se N&lt;sub&gt;0&lt;/sub&gt; = 2 e R = 5, obtemos:
+que, se N&lt;sub&gt;o&lt;/sub&gt; = 2 e R = 5, obtemos:
 
 
 &lt;img src="images/exp_growth.png" width="600" style="display: block; margin: auto;" /&gt;
@@ -38,7 +38,9 @@ que, se N&lt;sub&gt;0&lt;/sub&gt; = 2 e R = 5, obtemos:
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -53,7 +55,7 @@ que, se N&lt;sub&gt;0&lt;/sub&gt; = 2 e R = 5, obtemos:
 
 
 
-&gt; N&lt;sub&gt;t+1&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; + Nascimentos - Mortes + Imigrantes - Emigrantes
+&gt; N&lt;sub&gt;t+1&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; + Emergências - Mortes + Imigrantes - Emigrantes
 
 
 - N&lt;sub&gt;t+1&lt;/sub&gt; = tamanho da população do banco de sementes (número de sementes) no tempo t + 1
@@ -64,10 +66,10 @@ que, se N&lt;sub&gt;0&lt;/sub&gt; = 2 e R = 5, obtemos:
 N&lt;sub&gt;t&lt;/sub&gt; = **Armazenamento**
 
 
-Nascimentos + imigrantes = **depósitos**
+Emergências + Imigrantes = **Depósitos**
 
 
-Mortes (e outras perdas) + Emigrantes = **retiradas**
+Mortes (e outras perdas) + Emigrantes = **Retiradas**
 
 
 
@@ -77,10 +79,10 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 
 
 
-&gt; N&lt;sub&gt;t+1&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; + Nascimentos - Mortes + Imigrantes - Emigrantes 
+&gt; **N&lt;sub&gt;t+1&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; + Emergências - Mortes + Imigrantes - Emigrantes**
 
 
-- **Nascimentos** = acréscimos à população - que surgiram da população original (N&lt;sub&gt;t&lt;/sub&gt;)
+- **Emergências** = acréscimos à população - que surgiram da população original (N&lt;sub&gt;t&lt;/sub&gt;)
 
 - **Imigração** = acréscimos à população - que surgiram de outra população
 
@@ -92,7 +94,9 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -105,26 +109,37 @@ Mortes (e outras perdas) + Emigrantes = **retiradas**
 # A equação do banco de sementes
 
 
+
 N&lt;sub&gt;t&lt;/sub&gt; = tamanho da população do banco de sementes no momento t
 
-&gt; Nascimentos = [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D
+&gt; **Emergências** = [(&lt;font color='red'&gt;N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D
 
-N&lt;sub&gt;pl&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;
+&lt;font color='red'&gt;N&lt;sub&gt;pl&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; * E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;
 
-N&lt;sub&gt;m&lt;/sub&gt; = N&lt;sub&gt;pl&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;
+N&lt;sub&gt;m&lt;/sub&gt; = &lt;font color='red'&gt;N&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; \* S&lt;sub&gt;pl&lt;/sub&gt; = &lt;font color='red'&gt;N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;
 
-Sementes m&lt;sup&gt;-2&lt;/sup&gt; = plantas m&lt;sup&gt;-2&lt;/sup&gt; \* sementes planta&lt;sup&gt;-1&lt;/sup&gt; = N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)
+&gt; **Sementes m&lt;sup&gt;-2&lt;/sup&gt;** = plantas m&lt;sup&gt;-2&lt;/sup&gt; \* sementes planta&lt;sup&gt;-1&lt;/sup&gt; = &lt;font color='blue'&gt;N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt;
 
-Depósitos = N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) \* D = N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; · S&lt;sub&gt;pl&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) \* D
+&lt;br&gt;
+
+&gt; **Depósitos** = &lt;font color='blue'&gt;N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt; \* D = &lt;font color='purple'&gt;N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) \* D&lt;/font&gt;
+
+&lt;br&gt;
 
 .footnote[
-[1] E&lt;sub&gt;f&lt;/sub&gt; = eficiência de controle
+[1] N&lt;sub&gt;pl&lt;/sub&gt; = número de plântulas
+
+[2] N&lt;sub&gt;m&lt;/sub&gt; = número de plantas maduras
+
+[3] E&lt;sub&gt;f&lt;/sub&gt; = eficiência de controle
 ]
 
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -138,21 +153,22 @@ Depósitos = N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) \* 
 # A equação do banco de sementes 
 
 
-&gt; **Mortes/Perdas** = [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))]
+&gt; **Mortes/Perdas** = [(&lt;font color='red'&gt;N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((&lt;font color='blue'&gt;N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (&lt;font color='green'&gt;1-S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))]
 
-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; = germinação e emergência
+&lt;font color='red'&gt;N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = germinação e emergência
 
-N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; = sementes que permanecem no banco de sementes após a emergência
+&lt;font color='blue'&gt;N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = sementes que permanecem no banco de sementes após a emergência
 
-N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* (1-S&lt;sub&gt;bs&lt;/sub&gt;) = sementes perdidas por predação, decomposição, etc. de um ano para a próxima
-
+&lt;font color='blue'&gt;N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* (&lt;font color='green'&gt;1-S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;) = sementes perdidas por predação, decomposição, etc. de um ano para o próximo
 
 
 
 
 ---
 
-# O ciclo de vida de uma erva daninha anual
+class: inverse
+
+# O ciclo de vida de uma planta daninha anual
 
 
 
@@ -170,34 +186,40 @@ N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;
 
 N&lt;sub&gt;t&lt;/sub&gt; = tamanho da população do banco de sementes no momento t
 
-**Nascimentos** = [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D
+**Emergências** = &lt;font color='green'&gt;[(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D&lt;/font&gt;
 
-**Mortes/perdas** = [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))]
+**Mortes/perdas** = &lt;font color='red'&gt;[(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))]&lt;/font&gt;
  
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D - [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))] + I-E
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + &lt;font color='green'&gt;[(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D&lt;/font&gt; - &lt;font color='red'&gt;[(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))]&lt;/font&gt; + I-E
+
+&lt;br&gt;
+
+&gt; N&lt;sub&gt;t+1&lt;/sub&gt; = N&lt;sub&gt;t&lt;/sub&gt; + Emergências - Mortes + Imigrantes - Emigrantes
 
 
 ---
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt; \* S&lt;sub&gt;pl&lt;/sub&gt;) \* P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)] \* D - [(N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* E&lt;sub&gt;m&lt;/sub&gt;) \* (1-S&lt;sub&gt;bs&lt;/sub&gt;))] + I-E
+# Taxa variáveis
+
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt;] \* &lt;font color='orange'&gt;D&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
 
 
-- E&lt;sub&gt;m&lt;/sub&gt; = fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
+- &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
 
 
-- S&lt;sub&gt;pl&lt;/sub&gt; = fração de plântulas que sobrevivem até a maturidade
+- &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- P \* (1-E&lt;sub&gt;f&lt;/sub&gt;) = número de sementes produzidas por planta
+- &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt; = número de sementes produzidas por planta
 
 
-- D = fração de sementes dispersas na área de interesse
+- &lt;font color='orange'&gt;D&lt;/font&gt; = fração de sementes dispersas na área de interesse
 
 
-- S&lt;sub&gt;bs&lt;/sub&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- &lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 
@@ -229,7 +251,7 @@ Onde (variáveis):
 
 # E&lt;sub&gt;m&lt;/sub&gt; 
 
-## A fração de N&lt;sub&gt;t&lt;/sub&gt; que emerge
+## A fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
 
 &lt;img src="images/seedling_linear_3.png" width="600" style="display: block; margin: auto;" /&gt;
 
@@ -269,22 +291,24 @@ Onde (variáveis):
 ## A fração de plântulas que sobrevivem até a maturidade
 
 
-&lt;img src="images/surviving_seedlings.png" width="400" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/surviving_seedlings.png" width="350" style="display: block; margin: auto;" /&gt;
 
 
 
 ---
 
 
-&lt;img src="images/tillage_emergence.png" width="700" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/table_title.png" width="700" style="display: block; margin: auto;" /&gt;
 
+&lt;img src="images/table_emergence.png" width="700" style="display: block; margin: auto;" /&gt;
 
 ---
 
 
 
-&lt;img src="images/emergence_waterhemp.png" width="600" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/wat_title.png" width="600" style="display: block; margin: auto;" /&gt;
 
+&lt;img src="images/wat_emergence.png" width="600" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -296,7 +320,7 @@ Onde (variáveis):
 
 ---
 
-# N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt;N&lt;sub&gt;0&lt;/sub&gt;
+# N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt;N&lt;sub&gt;o&lt;/sub&gt;
 
 &lt;img src="https://kivu.com/wp-content/uploads/2015/05/human-pop-growth.jpg" width="600" style="display: block; margin: auto;" /&gt;
 
@@ -318,8 +342,10 @@ Onde (variáveis):
 
 - Quando aumentamos a população de plantio de milho, o que acontece com o tamanho da espiga em cada planta?
 
-- O que acontece com o rendimento?
+- O que acontece com a produtividade?
 
+
+&lt;img src="https://media.giphy.com/media/wrW1xNeCns7S0/giphy.gif" width="300" style="display: block; margin: auto;" /&gt;
 
 
 ---
@@ -371,7 +397,9 @@ Onde (variáveis):
 
 ---
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
+# Taxa variáveis
+
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
@@ -383,7 +411,7 @@ Onde (variáveis):
 - &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
+- &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
 
 - &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
 
@@ -414,7 +442,7 @@ class: inverse
 
 ---
 
-# N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt; N&lt;sub&gt;0&lt;/sub&gt;
+# N&lt;sub&gt;t&lt;/sub&gt; = R&lt;sup&gt;t&lt;/sup&gt; N&lt;sub&gt;o&lt;/sub&gt;
 
 
 
@@ -454,15 +482,6 @@ class: inverse
 
 &lt;img src="images/seed_prodution.png" width="600" style="display: block; margin: auto;" /&gt;
 
----
-
----
-
-# Produção de sementes (sementes m&lt;sup&gt;-2&lt;/sup&gt;)
-
-.center[
-N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1 - E&lt;sub&gt;f&lt;/sub&gt;)
-]
 
 
 ---
@@ -499,27 +518,27 @@ N&lt;sub&gt;m&lt;/sub&gt; \* P \* (1 - E&lt;sub&gt;f&lt;/sub&gt;)
 
 ---
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
+# Taxa variáveis
+
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt;] \* &lt;font color='orange'&gt;D&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
 
 
-- &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de Nt que germina e emerge
+- &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
 
 
 - &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- &lt;font color='green'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
-
-- &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
+- &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt; = número de sementes produzidas por planta
 
 
-- &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; = fração de sementes dispersas na área de interesse
+- &lt;font color='orange'&gt;D&lt;/font&gt; = fração de sementes dispersas na área de interesse
 
 
-- &lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- &lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 

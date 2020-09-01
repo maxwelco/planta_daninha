@@ -52,13 +52,13 @@ knitr::include_graphics("https://media.giphy.com/media/pgX4wQxRRps9W/giphy.gif")
 
 # Definição
 
-- **Interferência da planta** - o efeito que a presença de uma planta tem no crescimento e desenvolvimento de seus vizinhos.
+- **Interferência da planta** - o efeito que a presença de uma planta tem no crescimento e desenvolvimento de seus vizinhos
 
-- **Competição entre plantas** - efeitos mutuamente adversos das plantas que utilizam um recurso (nutrientes, água e luz) em falta.
+- **Competição entre plantas** - efeitos mutuamente adversos das plantas que utilizam um recurso (nutrientes, água e luz) em falta
 
-- **Alelopatia** é um tipo de interferência em que a inibição de plantas vizinhas ocorre como resultado da excreção de uma toxina biológica.
+- **Alelopatia** é um tipo de interferência em que a inibição de plantas vizinhas ocorre como resultado da excreção de uma toxina biológica
 
-- **Parasitismo** - um organismo vive em, sobre ou com outro, às custas de quem obtém comida, abrigo ou apoio.
+- **Parasitismo** - um organismo vive em, sobre ou com outro, às custas de quem obtém comida, abrigo ou apoio
 
 
 ---
