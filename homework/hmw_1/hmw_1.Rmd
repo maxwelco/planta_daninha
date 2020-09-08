@@ -8,7 +8,7 @@ output:
 ---
 
 
-##  Banco de Sementes do Solo
+##  Banco de Sementes do Solo (3 pts - bimestre)
 
 <br>
 

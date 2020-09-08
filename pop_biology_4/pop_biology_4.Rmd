@@ -1,6 +1,6 @@
 ---
 title: "Biologia Populacional"
-subtitle: "Parte IV"
+subtitle: "Quantificando o banco de sementes do solo"
 author: "Maxwel Coura Oliveira"
 institute: "Universidade do Oeste Paulista"
 #date: "2016/12/12 (updated: `r Sys.Date()`)"

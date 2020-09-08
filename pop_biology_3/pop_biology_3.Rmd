@@ -97,7 +97,13 @@ knitr::include_graphics("images/bidens.png")
 ``` 
 ]
 
+---
 
+# Papel da luz na dormência
+
+```{r echo=FALSE, out.width=550, fig.align='center'}
+knitr::include_graphics("images/buva_luz.png")
+``` 
 
 ---
 
@@ -299,7 +305,17 @@ knitr::include_graphics("images/hartzler_2.png")
 ]
 
 
+---
 
+# Emergência
+
+## A emergência é determinada em parte por
+
+- Temperatura
+
+```{r echo=FALSE, out.width=450, fig.align='center'}
+knitr::include_graphics("images/buva_termica.png")
+``` 
 
 ---
 
@@ -362,6 +378,28 @@ knitr::include_graphics("images/deep_burial.png")
 
 
 ---
+
+
+
+# Emergência
+
+## A emergência é determinada em parte por
+--
+
+
+
+- Profundidade da semente
+
+
+```{r echo=FALSE, out.width=450, fig.align='center'}
+knitr::include_graphics("images/buva_germinacao.png")
+``` 
+
+
+
+
+---
+
 
 # Emergência
 
@@ -864,10 +902,10 @@ Mortes (e outras perdas) + Emigrantes = retiradas
 
 
 
-> N<sub>t+1</sub> = N<sub>t</sub> + Nascimentos - Mortes + Imigrantes - Emigrantes
+> N<sub>t+1</sub> = N<sub>t</sub> + Emergências - Mortes + Imigrantes - Emigrantes
 
 
-- **Nascimentos** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
+- **Emergências** = acréscimos à população - que surgiram da população original (N<sub>t</sub>)
 
 - **Imigração** = acréscimos à população - que surgiram de outra população
 
