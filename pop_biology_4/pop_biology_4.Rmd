@@ -217,25 +217,27 @@ N<sub>t</sub> = tamanho da população do banco de sementes no momento t
 
 # Taxa variáveis
 
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='purple'>P \* (1-E<sub>f</sub>)</font>] \* <font color='orange'>D</font> - [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) \* (1-<font color='red'>S<sub>bs</sub></font>))] + I-E
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='brown'>P</sub></font> \* (1-<font color='green'>E<sub>f</sub></font>)] \* <font color='orange'>D</sub></font> - [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) \* (1-<font color='purple'>S<sub>bs</sub></font>))] + I-E
 
 
 Onde (variáveis):
 
 
-- <font color='green'>E<sub>m</sub></font> = fração de N<sub>t</sub> que germina e emerge
+- <font color='red'>E<sub>m</sub></font> = fração de Nt que germina e emerge
 
 
 - <font color='blue'>S<sub>pl</sub></font> = fração de plântulas que sobrevivem até a maturidade
 
 
-- <font color='purple'>P \* (1-E<sub>f</sub>)</font> = número de sementes produzidas por planta
+- <font color='brown'>P</sub></font> = número de sementes produzidas por planta
+
+- <font color='green'>E<sub>f</sub></font> = eficácia (proporção de plantas mortas pelo manejo)
 
 
-- <font color='orange'>D</font> = fração de sementes dispersas na área de interesse
+- <font color='orange'>D</sub></font> = fração de sementes dispersas na área de interesse
 
 
-- <font color='red'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- <font color='purple'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 
@@ -433,7 +435,7 @@ knitr::include_graphics("images/sb_04.png")
 
 ---
 
-# S<sub>pl</sub>
+# S<sub>bs</sub>
 
 ## Fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
@@ -596,25 +598,27 @@ knitr::include_graphics("images/spring_seedbank_02.png")
 
 # Taxa variáveis
 
-**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='purple'>P \* (1-E<sub>f</sub>)</font>] \* <font color='orange'>D</font> - [(N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='green'>E<sub>m</sub></font>) \* (1-<font color='red'>S<sub>bs</sub></font>))] + I-E
+**N<sub>t+1</sub>**  = N<sub>t</sub> + [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font> \* <font color='blue'>S<sub>pl</sub></font>) \* <font color='brown'>P</sub></font> \* (1-<font color='green'>E<sub>f</sub></font>)] \* <font color='orange'>D</sub></font> - [(N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) + ((N<sub>t</sub>-N<sub>t</sub> \* <font color='red'>E<sub>m</sub></font>) \* (1-<font color='purple'>S<sub>bs</sub></font>))] + I-E
 
 
 Onde (variáveis):
 
 
-- <font color='green'>E<sub>m</sub></font> = fração de N<sub>t</sub> que germina e emerge
+- <font color='red'>E<sub>m</sub></font> = fração de Nt que germina e emerge
 
 
 - <font color='blue'>S<sub>pl</sub></font> = fração de plântulas que sobrevivem até a maturidade
 
 
-- <font color='purple'>P \* (1-E<sub>f</sub>)</font> = número de sementes produzidas por planta
+- <font color='brown'>P</sub></font> = número de sementes produzidas por planta
+
+- <font color='green'>E<sub>f</sub></font> = eficácia (proporção de plantas mortas pelo manejo)
 
 
-- <font color='orange'>D</font> = fração de sementes dispersas na área de interesse
+- <font color='orange'>D</sub></font> = fração de sementes dispersas na área de interesse
 
 
-- <font color='red'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- <font color='purple'>S<sub>bs</sub></font> = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 

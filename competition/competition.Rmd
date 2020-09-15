@@ -38,13 +38,11 @@ library(pagedown)
 
 - Explicar quais recursos são mais críticos e por que
 
-- Descrever características que tornam as plantas mais competitivas para recursos críticos
+- Descrever características que tornam as plantas mais competitivas para esses recursos críticos
 --
 
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("https://media.giphy.com/media/pgX4wQxRRps9W/giphy.gif")
-```
+
 
 
 
@@ -66,7 +64,7 @@ knitr::include_graphics("https://media.giphy.com/media/pgX4wQxRRps9W/giphy.gif")
 # Relações de Densidade-Rendimento
 
 
-- À medida que a densidade (população) aumenta, a biomassa (rendimento) de um indivíduo diminui.
+- À medida que a densidade (população) aumenta, a biomassa (rendimento) de um indivíduo diminui
 
 - O rendimento (biomassa) de uma área aumenta à medida que a densidade (população) aumenta, mas com retornos decrescentes.
 
@@ -106,6 +104,8 @@ knitr::include_graphics("images/yield_loss.png")
 
 class: inverse, center, middle
 
+# Recursos
+
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/recursos.png")
 ```
@@ -115,11 +115,15 @@ knitr::include_graphics("images/recursos.png")
 
 # Mecanismos da competição
 
-- As plantas daninhas causam perda de rendimento da cultura indiretamente por sua influência nos recursos necessários para o crescimento da cultura
+- As plantas daninhas causam perda de rendimento em plantas cultivadas indiretamente por sua influência nos recursos necessários para o crescimento da cultura
 
 
 - O resultado da competição é impulsionado pelos mecanismos fisiológicos que regulam o efeito de cada espécie em um recurso e sua resposta à disponibilidade desse recurso
 
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/pgX4wQxRRps9W/giphy.gif")
+```
 
 ---
 
@@ -154,9 +158,9 @@ knitr::include_graphics("images/recursos_2.png")
 
 # Competição direta vs indireta
 
-- A **competição direta** ocorre quando o recurso é imediatamente escasso.
+- A **competição direta** ocorre quando o recurso é imediatamente escasso
 
-- A **competição indireta** ocorre quando as plantas estão utilizando um conjunto finito de recursos.
+- A **competição indireta** ocorre quando as plantas estão utilizando um conjunto finito de recursos
 
 
 ---
@@ -187,7 +191,29 @@ knitr::include_graphics("images/leaf_area_index.png")
 ```
 
 
+---
 
+# 
+
+.pull-left[
+
+- *Abutilon theophrasti* (velvetleaf)
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://www.canr.msu.edu/ipm/uploads/images/VelvetleafPlant.jpg")
+```
+]
+
+
+
+.pull-right[
+
+- Corn (milho)
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Corn_Zea_mays_Plant_Row_2000px.jpg/800px-Corn_Zea_mays_Plant_Row_2000px.jpg")
+```
+]
  
 
 ---
@@ -318,6 +344,18 @@ knitr::include_graphics("images/fisiologia.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("https://pbs.twimg.com/media/Eb9gRElWsAAnjah?format=jpg&name=large")
 ``` 
+
+---
+
+# Competição por luz
+
+- % radiação interceptada por plantas de soja
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/espacamento.png")
+``` 
+
 
 ---
 

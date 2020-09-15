@@ -201,25 +201,27 @@ N&lt;sub&gt;t&lt;/sub&gt; = tamanho da população do banco de sementes no momen
 
 # Taxa variáveis
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt;] \* &lt;font color='orange'&gt;D&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
 
 
-- &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
+- &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de Nt que germina e emerge
 
 
 - &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt; = número de sementes produzidas por planta
+- &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
+
+- &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
 
 
-- &lt;font color='orange'&gt;D&lt;/font&gt; = fração de sementes dispersas na área de interesse
+- &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; = fração de sementes dispersas na área de interesse
 
 
-- &lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- &lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 
@@ -379,7 +381,7 @@ Onde (variáveis):
 
 ---
 
-# S&lt;sub&gt;pl&lt;/sub&gt;
+# S&lt;sub&gt;bs&lt;/sub&gt;
 
 ## Fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
@@ -520,25 +522,27 @@ class: inverse
 
 # Taxa variáveis
 
-**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt;] \* &lt;font color='orange'&gt;D&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
+**N&lt;sub&gt;t+1&lt;/sub&gt;**  = N&lt;sub&gt;t&lt;/sub&gt; + [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; \* &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt;) \* &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; \* (1-&lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt;)] \* &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; - [(N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) + ((N&lt;sub&gt;t&lt;/sub&gt;-N&lt;sub&gt;t&lt;/sub&gt; \* &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt;) \* (1-&lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt;))] + I-E
 
 
 Onde (variáveis):
 
 
-- &lt;font color='green'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de N&lt;sub&gt;t&lt;/sub&gt; que germina e emerge
+- &lt;font color='red'&gt;E&lt;sub&gt;m&lt;/sub&gt;&lt;/font&gt; = fração de Nt que germina e emerge
 
 
 - &lt;font color='blue'&gt;S&lt;sub&gt;pl&lt;/sub&gt;&lt;/font&gt; = fração de plântulas que sobrevivem até a maturidade
 
 
-- &lt;font color='purple'&gt;P \* (1-E&lt;sub&gt;f&lt;/sub&gt;)&lt;/font&gt; = número de sementes produzidas por planta
+- &lt;font color='brown'&gt;P&lt;/sub&gt;&lt;/font&gt; = número de sementes produzidas por planta
+
+- &lt;font color='green'&gt;E&lt;sub&gt;f&lt;/sub&gt;&lt;/font&gt; = eficácia (proporção de plantas mortas pelo manejo)
 
 
-- &lt;font color='orange'&gt;D&lt;/font&gt; = fração de sementes dispersas na área de interesse
+- &lt;font color='orange'&gt;D&lt;/sub&gt;&lt;/font&gt; = fração de sementes dispersas na área de interesse
 
 
-- &lt;font color='red'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
+- &lt;font color='purple'&gt;S&lt;sub&gt;bs&lt;/sub&gt;&lt;/font&gt; = fração de sementes que permanecem no banco de sementes que sobrevivem à predação e à decomposição
 
 
 
