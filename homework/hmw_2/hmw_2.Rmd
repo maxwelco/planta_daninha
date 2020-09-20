@@ -2,13 +2,7 @@
 title: "Exercícios 2"
 author: "Nome:________________________________"
 date: "Turma:________________________________"
-output:
-  html_document:
-    theme: flatly
-    toc: TRUE
-    toc_float: TRUE
-    toc_depth: 2
-    number_sections: TRUE
+
 ---
 
 ```{r include=FALSE}
@@ -52,7 +46,7 @@ $${RL}= (Y * P) - (C + M) $$
 
 <br>
 
-# Problema
+Problema
 
 Um agricultor em Londrina/PR está produzindo soja Roundup Ready e notou que agora ele tem buva resistente ao glifosato em seu lavoura. Suponha que cada célula na tabela a seguir representa a densidade média de buva (plantas m<sup>-2</sup>) para uma área de 10 ha dentro dessa lavoura:
 
@@ -62,12 +56,10 @@ Um agricultor em Londrina/PR está produzindo soja Roundup Ready e notou que ago
 knitr::include_graphics("images/field.png")
 ```
 
+<br>
+<br>
 
-
-
-# Defina
-
-As seguintes informações foram encontradas na literatura (escreva o que o parâmetro representa) (1 cada):
+1) As seguintes informações foram encontradas na literatura (escreva o que o parâmetro representa) (1 cada):
 
 C = _______________________________________________ = R$ 450 / ha
 
@@ -90,7 +82,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 
 <br>
 
-# Calcule a densidade média de buva (plantas m<sup>-2</sup>) para a lavoura (2).
+2) Calcule a densidade média de buva (plantas m<sup>-2</sup>) para a lavoura (2).
 
 <br>
 
@@ -103,9 +95,8 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 ```
 
 
-# Calcule 
 
-## O nível de dano econômico de um único ano de densidade de buva (2):
+3) O nível de dano econômico de um único ano de densidade de buva (2):
 
 <br>
 
@@ -119,7 +110,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 
 
 
-## Se usassemos a densidade de buva da lavoura inteira e o nível de dano econômico da densidade de buva calculada acima para decidir se uma aplicação de herbicida é justificada, o que você faria (1)?
+4) Se usassemos a densidade de buva da lavoura inteira e o nível de dano econômico da densidade de buva calculada acima para decidir se uma aplicação de herbicida é justificada, o que você faria (1)?
 
 <br>
 
@@ -127,7 +118,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 
 <br>
 
-## Qual é o nível de dano econômico se o preço aumentar para R$ 180,00 por saca? Quais são as implicações desse resultado (2)?
+5) Qual é o nível de dano econômico se o preço aumentar para R$ 180,00 por saca? Quais são as implicações desse resultado (2)?
 
 <br>
 
@@ -139,7 +130,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 450 / (67*180*0.23*0.95)
 ```
 
-## Qual seria o retorno econômico se pulverizássemos toda a lavoura, assumindo o preço de R$ 100,0 (2)?
+6) Qual seria o retorno econômico se pulverizássemos toda a lavoura, assumindo o preço de R$ 100,0 (2)?
 
 <br>
 
@@ -153,7 +144,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 
 
 
-## Qual seria o retorno econômico de toda lavoura se não fizessemos nada (4)?
+7) Qual seria o retorno econômico de toda lavoura se não fizessemos nada (4)?
 
 <br>
 
@@ -171,7 +162,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 ```
 
 
-## Qual seria o retorno econômico da lavoura inteira se pulverizássemos apenas aqueles blocos de 10 ha que excedem o limite de dano econômico de densidade de plantas daninhas? (4)
+8) Qual seria o retorno econômico da lavoura inteira se pulverizássemos apenas aqueles blocos de 10 ha que excedem o limite de dano econômico de densidade de plantas daninhas? (4)
 
 <br>
 
@@ -184,7 +175,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 ```
 
 
-## Qual seria a vantagem de usar o manejo localizado na lavoura vez de não usar nenhum manejo de plantas daninhas? (2)
+9) Qual seria a vantagem de usar o manejo localizado na lavoura vez de não usar nenhum manejo de plantas daninhas? (2)
 
 <br>
 
@@ -192,7 +183,7 @@ Suponha que a aplicação de herbicida restaure a produtividade ao nível livre 
 
 <br>
 
-## Se essa fosse uma lavoura de sua consultoria, o que você faria e por quê (seja especifico e concentre sua resposta nos conceitos que discutimos em aula)? (2)
+10) Se essa fosse uma lavoura de sua consultoria, o que você faria e por quê (seja especifico e concentre sua resposta nos conceitos que discutimos em aula)? (2)
 
 <br>
 

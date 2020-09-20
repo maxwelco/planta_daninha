@@ -431,18 +431,6 @@ knitr::include_graphics("https://www.danforthcenter.org/app/uploads/2020/06/Figu
 
 
 
----
-
-# Dúvidas?
-
-
-.center[
-![](https://media.giphy.com/media/112Fjas8rghItO/giphy.gif)
-
-```
-MAXWEL COURA OLIVEIRA - maxweloliveira@unoeste.br
-```
-]
 
 
 
